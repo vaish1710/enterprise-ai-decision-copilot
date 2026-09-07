@@ -1,0 +1,1388 @@
+[
+  {
+    "question": "Who are the top 5 customers by spend in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 10 products by revenue in Apparel?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which products made the most revenue in 2024?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of pending orders in 2023?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Office Supplies category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the average order value in North America?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders were placed in APAC?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Can you recommend a good marketing slogan?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2024.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Draft an email apologizing for a late shipment.",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "Show revenue by region for 2024.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who are the top 10 customers by spend in APAC?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What is the mean order value in 2025?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Electronics in 2023?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders came from APAC in 2024?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of pending orders in 2024?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Average order value for Consumer customers?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders were placed in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the average order value in North America?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many Mid-Market customers do we have in APAC?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show me the top 5 best-selling products in North America.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Revenue per category, please.",
+    "in_scope": true,
+    "predicted_intent": null,
+    "expected_intent": "revenue_by_category",
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_in_scope"
+  },
+  {
+    "question": "What is the mean order value in 2023?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Write a haiku about our best-selling product.",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "What's the sales by category breakdown in 2025?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Grocery in 2023?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Office Supplies category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2024?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show the top 10 highest spend customers.",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What was total revenue in North America?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many Enterprise customers do we have in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Electronics category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 3 products by revenue in Office Supplies?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Office Supplies in 2025?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show me the top 10 best-selling products in LATAM.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What was total revenue in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Give me revenue per region in 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many Consumer customers do we have in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the meaning of life?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "What is the mean order value in 2023?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders came from North America in 2023?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by region for 2025.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Total revenue, LATAM, 2024?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Summarize our HR policy on parental leave.",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders came from North America in 2023?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the weather like in the APAC region?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "What's the sales by category breakdown in 2025?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show me the top 10 best-selling products in EMEA.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders were placed in North America?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the capital of France?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by region for 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of pending orders in 2024?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who are the top 3 customers by spend in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders were placed in North America?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by category breakdown in 2024?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders were placed in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What was total revenue in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who are the top 5 customers by spend in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by region for 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Home & Kitchen?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What is the mean order value in 2025?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by category breakdown in 2023?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Revenue per category, please.",
+    "in_scope": true,
+    "predicted_intent": null,
+    "expected_intent": "revenue_by_category",
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_in_scope"
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders came from LATAM in 2024?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of cancelled orders in 2023?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 10 products by revenue in Apparel?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which products made the most revenue in 2026?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many customers are in the SMB segment?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 3 products by revenue in Apparel?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Total revenue, LATAM, 2026?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Apparel?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Average order value for Enterprise customers?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who is our CEO?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "Number of customers in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Total revenue, North America, 2025?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's our stock price today?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "Number of cancelled orders in 2026?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Sporting Goods in 2024?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 5 products by revenue in Home & Kitchen?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show the top 10 highest spend customers.",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How do I reset my VPN password?",
+    "in_scope": false,
+    "predicted_intent": null,
+    "expected_intent": null,
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_out_of_scope_correctly"
+  },
+  {
+    "question": "How many Enterprise customers do we have in North America?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2025?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which products made the most revenue in 2023?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show me the top 3 best-selling products in EMEA.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many customers are in the SMB segment?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2024.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Home & Kitchen in 2023?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show the top 5 highest spend customers.",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many products are in Grocery?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Which customers spent the most in 2023?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by region for 2023.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Give me revenue per region in 2026.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How much revenue did we make from Sporting Goods in 2026?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.933,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many Consumer customers do we have in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Revenue per category, please.",
+    "in_scope": true,
+    "predicted_intent": null,
+    "expected_intent": "revenue_by_category",
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_in_scope"
+  },
+  {
+    "question": "Show me the top 5 best-selling products in North America.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Apparel category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who are the top 3 customers by spend in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Revenue per category, please.",
+    "in_scope": true,
+    "predicted_intent": null,
+    "expected_intent": "revenue_by_category",
+    "confidence": 0.0,
+    "status": "clarify",
+    "result": "declined_in_scope"
+  },
+  {
+    "question": "What's our total sales figure for 2026?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 10 products by revenue in Home & Kitchen?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many customers are in the Consumer segment?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many customers are in the Mid-Market segment?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What was total revenue in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "in_scope": true,
+    "predicted_intent": "product_count",
+    "expected_intent": "product_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Give me revenue per region in 2023.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's our total sales figure for 2026?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "How many orders came from APAC in 2026?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of refunded orders in 2023?",
+    "in_scope": true,
+    "predicted_intent": "order_count",
+    "expected_intent": "order_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What was total revenue in APAC?",
+    "in_scope": true,
+    "predicted_intent": "total_revenue",
+    "expected_intent": "total_revenue",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show me the top 10 best-selling products in LATAM.",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What are the top 10 products by revenue in Grocery?",
+    "in_scope": true,
+    "predicted_intent": "top_products",
+    "expected_intent": "top_products",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_region",
+    "expected_intent": "revenue_by_region",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show the top 3 highest spend customers.",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.8,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Average order value for Mid-Market customers?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "in_scope": true,
+    "predicted_intent": "revenue_by_category",
+    "expected_intent": "revenue_by_category",
+    "confidence": 1.0,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Who are the top 5 customers by spend in North America?",
+    "in_scope": true,
+    "predicted_intent": "top_customers",
+    "expected_intent": "top_customers",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the average order value in LATAM?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "Number of customers in EMEA?",
+    "in_scope": true,
+    "predicted_intent": "customer_count",
+    "expected_intent": "customer_count",
+    "confidence": 0.9,
+    "status": "answered",
+    "result": "answered_correct"
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "in_scope": true,
+    "predicted_intent": "avg_order_value",
+    "expected_intent": "avg_order_value",
+    "confidence": 0.867,
+    "status": "answered",
+    "result": "answered_correct"
+  }
+]

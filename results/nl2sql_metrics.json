@@ -1,0 +1,17 @@
+{
+  "n_questions": 154,
+  "n_in_scope": 144,
+  "n_out_of_scope": 10,
+  "execution_accuracy_in_scope": 0.9722,
+  "abstention_correct_rate_out_of_scope": 1.0,
+  "counts": {
+    "answered_correct": 140,
+    "answered_wrong": 0,
+    "declined_in_scope": 4,
+    "declined_out_of_scope_correctly": 10,
+    "hallucinated_out_of_scope": 0,
+    "error_in_scope": 0
+  },
+  "avg_response_time_sec": 0.00415,
+  "p95_response_time_sec": 0.00903
+}

@@ -1,0 +1,4194 @@
+[
+  {
+    "query": "When was POL-2336 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0336",
+    "relevant_chunk_ids": [
+      "doc-0336-c001"
+    ]
+  },
+  {
+    "query": "Which document was Noah Osei last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0176",
+    "relevant_chunk_ids": [
+      "doc-0176-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference PRO-2440?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0440",
+    "relevant_chunk_ids": [
+      "doc-0440-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on how vacation days build up that Customer Support put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0287",
+    "relevant_chunk_ids": [
+      "doc-0287-c000",
+      "doc-0287-c001",
+      "doc-0287-c002",
+      "doc-0287-c003",
+      "doc-0287-c004",
+      "doc-0287-c005",
+      "doc-0287-c006",
+      "doc-0287-c007",
+      "doc-0287-c008",
+      "doc-0287-c009",
+      "doc-0287-c010",
+      "doc-0287-c011",
+      "doc-0287-c012",
+      "doc-0287-c013",
+      "doc-0287-c014",
+      "doc-0287-c015",
+      "doc-0287-c016",
+      "doc-0287-c017",
+      "doc-0287-c018",
+      "doc-0287-c019"
+    ]
+  },
+  {
+    "query": "What cases does Omar Moretti currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0087",
+    "relevant_chunk_ids": [
+      "doc-0087-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on granting system access to contractors that Security put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0256",
+    "relevant_chunk_ids": [
+      "doc-0256-c000",
+      "doc-0256-c001",
+      "doc-0256-c002",
+      "doc-0256-c003",
+      "doc-0256-c004",
+      "doc-0256-c005",
+      "doc-0256-c006",
+      "doc-0256-c007",
+      "doc-0256-c008",
+      "doc-0256-c009",
+      "doc-0256-c010",
+      "doc-0256-c011",
+      "doc-0256-c012",
+      "doc-0256-c013",
+      "doc-0256-c014",
+      "doc-0256-c015"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how to book business travel?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0130",
+    "relevant_chunk_ids": [
+      "doc-0130-c000",
+      "doc-0130-c001",
+      "doc-0130-c002",
+      "doc-0130-c003",
+      "doc-0130-c004",
+      "doc-0130-c005",
+      "doc-0130-c006",
+      "doc-0130-c007",
+      "doc-0130-c008",
+      "doc-0130-c009",
+      "doc-0130-c010",
+      "doc-0130-c011",
+      "doc-0130-c012",
+      "doc-0130-c013",
+      "doc-0130-c014",
+      "doc-0130-c015",
+      "doc-0130-c016"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on sign-off needed to refund a customer, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0325",
+    "relevant_chunk_ids": [
+      "doc-0325-c000",
+      "doc-0325-c001",
+      "doc-0325-c002",
+      "doc-0325-c003",
+      "doc-0325-c004",
+      "doc-0325-c005",
+      "doc-0325-c006",
+      "doc-0325-c007",
+      "doc-0325-c008",
+      "doc-0325-c009",
+      "doc-0325-c010",
+      "doc-0325-c011",
+      "doc-0325-c012",
+      "doc-0325-c013",
+      "doc-0325-c014",
+      "doc-0325-c015"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how often performance reviews happen?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0241",
+    "relevant_chunk_ids": [
+      "doc-0241-c000",
+      "doc-0241-c001",
+      "doc-0241-c002",
+      "doc-0241-c003",
+      "doc-0241-c004",
+      "doc-0241-c005",
+      "doc-0241-c006",
+      "doc-0241-c007",
+      "doc-0241-c008",
+      "doc-0241-c009",
+      "doc-0241-c010",
+      "doc-0241-c011",
+      "doc-0241-c012",
+      "doc-0241-c013",
+      "doc-0241-c014",
+      "doc-0241-c015",
+      "doc-0241-c016",
+      "doc-0241-c017",
+      "doc-0241-c018"
+    ]
+  },
+  {
+    "query": "How does Horizon Reporting deal with time off for new parents today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0243",
+    "relevant_chunk_ids": [
+      "doc-0243-c000",
+      "doc-0243-c001",
+      "doc-0243-c002",
+      "doc-0243-c003",
+      "doc-0243-c004",
+      "doc-0243-c005",
+      "doc-0243-c006",
+      "doc-0243-c007",
+      "doc-0243-c008",
+      "doc-0243-c009",
+      "doc-0243-c010",
+      "doc-0243-c011",
+      "doc-0243-c012",
+      "doc-0243-c013",
+      "doc-0243-c014",
+      "doc-0243-c015",
+      "doc-0243-c016",
+      "doc-0243-c017",
+      "doc-0243-c018",
+      "doc-0243-c019"
+    ]
+  },
+  {
+    "query": "I need details on reference ONB-2392, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0392",
+    "relevant_chunk_ids": [
+      "doc-0392-c000"
+    ]
+  },
+  {
+    "query": "Within Legal & Compliance, rules for reviewing code before merge for Beacon CRM -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0376",
+    "relevant_chunk_ids": [
+      "doc-0376-c000",
+      "doc-0376-c001",
+      "doc-0376-c002",
+      "doc-0376-c003",
+      "doc-0376-c004",
+      "doc-0376-c005",
+      "doc-0376-c006",
+      "doc-0376-c007",
+      "doc-0376-c008",
+      "doc-0376-c009",
+      "doc-0376-c010",
+      "doc-0376-c011",
+      "doc-0376-c012",
+      "doc-0376-c013",
+      "doc-0376-c014",
+      "doc-0376-c015",
+      "doc-0376-c016",
+      "doc-0376-c017",
+      "doc-0376-c018",
+      "doc-0376-c019",
+      "doc-0376-c020",
+      "doc-0376-c021",
+      "doc-0376-c022"
+    ]
+  },
+  {
+    "query": "I need details on reference FAQ-2171, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0171",
+    "relevant_chunk_ids": [
+      "doc-0171-c001"
+    ]
+  },
+  {
+    "query": "Within Legal & Compliance, customer cancellation rate for Vantage Analytics Suite -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0173",
+    "relevant_chunk_ids": [
+      "doc-0173-c000",
+      "doc-0173-c001",
+      "doc-0173-c002",
+      "doc-0173-c003",
+      "doc-0173-c004",
+      "doc-0173-c005",
+      "doc-0173-c006",
+      "doc-0173-c007",
+      "doc-0173-c008",
+      "doc-0173-c009",
+      "doc-0173-c010",
+      "doc-0173-c011",
+      "doc-0173-c012",
+      "doc-0173-c013",
+      "doc-0173-c014",
+      "doc-0173-c015",
+      "doc-0173-c016",
+      "doc-0173-c017",
+      "doc-0173-c018"
+    ]
+  },
+  {
+    "query": "When was POL-2227 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0227",
+    "relevant_chunk_ids": [
+      "doc-0227-c000"
+    ]
+  },
+  {
+    "query": "How does Vantage Analytics Suite deal with granting system access to contractors today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0393",
+    "relevant_chunk_ids": [
+      "doc-0393-c000",
+      "doc-0393-c001",
+      "doc-0393-c002",
+      "doc-0393-c003",
+      "doc-0393-c004",
+      "doc-0393-c005",
+      "doc-0393-c006",
+      "doc-0393-c007",
+      "doc-0393-c008",
+      "doc-0393-c009",
+      "doc-0393-c010",
+      "doc-0393-c011",
+      "doc-0393-c012",
+      "doc-0393-c013",
+      "doc-0393-c014",
+      "doc-0393-c015",
+      "doc-0393-c016",
+      "doc-0393-c017",
+      "doc-0393-c018"
+    ]
+  },
+  {
+    "query": "How does Vantage Analytics Suite deal with revenue kept and expanded from existing customers today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0377",
+    "relevant_chunk_ids": [
+      "doc-0377-c000",
+      "doc-0377-c001",
+      "doc-0377-c002",
+      "doc-0377-c003",
+      "doc-0377-c004",
+      "doc-0377-c005",
+      "doc-0377-c006",
+      "doc-0377-c007",
+      "doc-0377-c008",
+      "doc-0377-c009",
+      "doc-0377-c010",
+      "doc-0377-c011",
+      "doc-0377-c012",
+      "doc-0377-c013",
+      "doc-0377-c014",
+      "doc-0377-c015",
+      "doc-0377-c016",
+      "doc-0377-c017",
+      "doc-0377-c018",
+      "doc-0377-c019",
+      "doc-0377-c020",
+      "doc-0377-c021",
+      "doc-0377-c022",
+      "doc-0377-c023",
+      "doc-0377-c024",
+      "doc-0377-c025"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle revenue kept and expanded from existing customers?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0014",
+    "relevant_chunk_ids": [
+      "doc-0014-c000",
+      "doc-0014-c001",
+      "doc-0014-c002",
+      "doc-0014-c003",
+      "doc-0014-c004",
+      "doc-0014-c005",
+      "doc-0014-c006",
+      "doc-0014-c007",
+      "doc-0014-c008",
+      "doc-0014-c009",
+      "doc-0014-c010",
+      "doc-0014-c011",
+      "doc-0014-c012",
+      "doc-0014-c013",
+      "doc-0014-c014",
+      "doc-0014-c015",
+      "doc-0014-c016",
+      "doc-0014-c017",
+      "doc-0014-c018",
+      "doc-0014-c019"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle rules for reviewing code before merge?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0005",
+    "relevant_chunk_ids": [
+      "doc-0005-c000",
+      "doc-0005-c001",
+      "doc-0005-c002",
+      "doc-0005-c003",
+      "doc-0005-c004",
+      "doc-0005-c005",
+      "doc-0005-c006",
+      "doc-0005-c007",
+      "doc-0005-c008",
+      "doc-0005-c009",
+      "doc-0005-c010",
+      "doc-0005-c011",
+      "doc-0005-c012",
+      "doc-0005-c013",
+      "doc-0005-c014"
+    ]
+  },
+  {
+    "query": "Is there guidance on ordering new equipment that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0419",
+    "relevant_chunk_ids": [
+      "doc-0419-c000",
+      "doc-0419-c001",
+      "doc-0419-c002",
+      "doc-0419-c003",
+      "doc-0419-c004",
+      "doc-0419-c005",
+      "doc-0419-c006",
+      "doc-0419-c007",
+      "doc-0419-c008",
+      "doc-0419-c009",
+      "doc-0419-c010",
+      "doc-0419-c011",
+      "doc-0419-c012",
+      "doc-0419-c013",
+      "doc-0419-c014",
+      "doc-0419-c015",
+      "doc-0419-c016",
+      "doc-0419-c017",
+      "doc-0419-c018",
+      "doc-0419-c019",
+      "doc-0419-c020"
+    ]
+  },
+  {
+    "query": "Who owns case reference ONB-2306?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0306",
+    "relevant_chunk_ids": [
+      "doc-0306-c001"
+    ]
+  },
+  {
+    "query": "What's Sales's latest thinking on how to book business travel, especially for Forge API Gateway?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0509",
+    "relevant_chunk_ids": [
+      "doc-0509-c000",
+      "doc-0509-c001",
+      "doc-0509-c002",
+      "doc-0509-c003",
+      "doc-0509-c004",
+      "doc-0509-c005",
+      "doc-0509-c006",
+      "doc-0509-c007",
+      "doc-0509-c008",
+      "doc-0509-c009",
+      "doc-0509-c010",
+      "doc-0509-c011",
+      "doc-0509-c012",
+      "doc-0509-c013",
+      "doc-0509-c014",
+      "doc-0509-c015",
+      "doc-0509-c016",
+      "doc-0509-c017",
+      "doc-0509-c018",
+      "doc-0509-c019",
+      "doc-0509-c020",
+      "doc-0509-c021"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2055?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0055",
+    "relevant_chunk_ids": [
+      "doc-0055-c000"
+    ]
+  },
+  {
+    "query": "How does Forge API Gateway deal with slowest 5% of API response times today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0461",
+    "relevant_chunk_ids": [
+      "doc-0461-c000",
+      "doc-0461-c001",
+      "doc-0461-c002",
+      "doc-0461-c003",
+      "doc-0461-c004",
+      "doc-0461-c005",
+      "doc-0461-c006",
+      "doc-0461-c007",
+      "doc-0461-c008",
+      "doc-0461-c009",
+      "doc-0461-c010",
+      "doc-0461-c011",
+      "doc-0461-c012",
+      "doc-0461-c013",
+      "doc-0461-c014",
+      "doc-0461-c015",
+      "doc-0461-c016",
+      "doc-0461-c017"
+    ]
+  },
+  {
+    "query": "What's Finance's latest thinking on how accurate product-level demand forecasts are, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0117",
+    "relevant_chunk_ids": [
+      "doc-0117-c000",
+      "doc-0117-c001",
+      "doc-0117-c002",
+      "doc-0117-c003",
+      "doc-0117-c004",
+      "doc-0117-c005",
+      "doc-0117-c006",
+      "doc-0117-c007",
+      "doc-0117-c008",
+      "doc-0117-c009",
+      "doc-0117-c010",
+      "doc-0117-c011",
+      "doc-0117-c012",
+      "doc-0117-c013",
+      "doc-0117-c014",
+      "doc-0117-c015",
+      "doc-0117-c016",
+      "doc-0117-c017",
+      "doc-0117-c018",
+      "doc-0117-c019",
+      "doc-0117-c020",
+      "doc-0117-c021",
+      "doc-0117-c022",
+      "doc-0117-c023",
+      "doc-0117-c024",
+      "doc-0117-c025"
+    ]
+  },
+  {
+    "query": "Within Sales, slowest 5% of API response times for Nimbus Data Platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0300",
+    "relevant_chunk_ids": [
+      "doc-0300-c000",
+      "doc-0300-c001",
+      "doc-0300-c002",
+      "doc-0300-c003",
+      "doc-0300-c004",
+      "doc-0300-c005",
+      "doc-0300-c006",
+      "doc-0300-c007",
+      "doc-0300-c008",
+      "doc-0300-c009",
+      "doc-0300-c010",
+      "doc-0300-c011",
+      "doc-0300-c012",
+      "doc-0300-c013",
+      "doc-0300-c014",
+      "doc-0300-c015",
+      "doc-0300-c016",
+      "doc-0300-c017",
+      "doc-0300-c018",
+      "doc-0300-c019",
+      "doc-0300-c020",
+      "doc-0300-c021",
+      "doc-0300-c022",
+      "doc-0300-c023",
+      "doc-0300-c024",
+      "doc-0300-c025",
+      "doc-0300-c026",
+      "doc-0300-c027",
+      "doc-0300-c028",
+      "doc-0300-c029"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2482?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0482",
+    "relevant_chunk_ids": [
+      "doc-0482-c001"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with rules for reviewing code before merge today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0315",
+    "relevant_chunk_ids": [
+      "doc-0315-c000",
+      "doc-0315-c001",
+      "doc-0315-c002",
+      "doc-0315-c003",
+      "doc-0315-c004",
+      "doc-0315-c005",
+      "doc-0315-c006",
+      "doc-0315-c007",
+      "doc-0315-c008",
+      "doc-0315-c009",
+      "doc-0315-c010",
+      "doc-0315-c011",
+      "doc-0315-c012",
+      "doc-0315-c013",
+      "doc-0315-c014",
+      "doc-0315-c015",
+      "doc-0315-c016",
+      "doc-0315-c017"
+    ]
+  },
+  {
+    "query": "What's the status of case QUA-2481?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0481",
+    "relevant_chunk_ids": [
+      "doc-0481-c000"
+    ]
+  },
+  {
+    "query": "When was PRO-2382 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0382",
+    "relevant_chunk_ids": [
+      "doc-0382-c000"
+    ]
+  },
+  {
+    "query": "I need details on reference MEE-2072, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0072",
+    "relevant_chunk_ids": [
+      "doc-0072-c000"
+    ]
+  },
+  {
+    "query": "I need details on reference FAQ-2188, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0188",
+    "relevant_chunk_ids": [
+      "doc-0188-c000"
+    ]
+  },
+  {
+    "query": "How does Vantage Analytics Suite deal with granting system access to contractors today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0305",
+    "relevant_chunk_ids": [
+      "doc-0305-c000",
+      "doc-0305-c001",
+      "doc-0305-c002",
+      "doc-0305-c003",
+      "doc-0305-c004",
+      "doc-0305-c005",
+      "doc-0305-c006",
+      "doc-0305-c007",
+      "doc-0305-c008",
+      "doc-0305-c009",
+      "doc-0305-c010",
+      "doc-0305-c011",
+      "doc-0305-c012",
+      "doc-0305-c013",
+      "doc-0305-c014",
+      "doc-0305-c015",
+      "doc-0305-c016",
+      "doc-0305-c017"
+    ]
+  },
+  {
+    "query": "Is there guidance on extra pay for being on call that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0022",
+    "relevant_chunk_ids": [
+      "doc-0022-c000",
+      "doc-0022-c001",
+      "doc-0022-c002",
+      "doc-0022-c003",
+      "doc-0022-c004",
+      "doc-0022-c005",
+      "doc-0022-c006",
+      "doc-0022-c007",
+      "doc-0022-c008",
+      "doc-0022-c009",
+      "doc-0022-c010",
+      "doc-0022-c011",
+      "doc-0022-c012",
+      "doc-0022-c013",
+      "doc-0022-c014",
+      "doc-0022-c015",
+      "doc-0022-c016",
+      "doc-0022-c017"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on bugs that slip past QA into production, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0136",
+    "relevant_chunk_ids": [
+      "doc-0136-c000",
+      "doc-0136-c001",
+      "doc-0136-c002",
+      "doc-0136-c003",
+      "doc-0136-c004",
+      "doc-0136-c005",
+      "doc-0136-c006",
+      "doc-0136-c007",
+      "doc-0136-c008",
+      "doc-0136-c009",
+      "doc-0136-c010",
+      "doc-0136-c011",
+      "doc-0136-c012",
+      "doc-0136-c013",
+      "doc-0136-c014",
+      "doc-0136-c015",
+      "doc-0136-c016",
+      "doc-0136-c017",
+      "doc-0136-c018",
+      "doc-0136-c019",
+      "doc-0136-c020",
+      "doc-0136-c021",
+      "doc-0136-c022",
+      "doc-0136-c023"
+    ]
+  },
+  {
+    "query": "When was FAQ-2443 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0443",
+    "relevant_chunk_ids": [
+      "doc-0443-c000"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on bringing a new supplier on board, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0149",
+    "relevant_chunk_ids": [
+      "doc-0149-c000",
+      "doc-0149-c001",
+      "doc-0149-c002",
+      "doc-0149-c003",
+      "doc-0149-c004",
+      "doc-0149-c005",
+      "doc-0149-c006",
+      "doc-0149-c007",
+      "doc-0149-c008",
+      "doc-0149-c009",
+      "doc-0149-c010",
+      "doc-0149-c011",
+      "doc-0149-c012",
+      "doc-0149-c013",
+      "doc-0149-c014",
+      "doc-0149-c015",
+      "doc-0149-c016",
+      "doc-0149-c017",
+      "doc-0149-c018",
+      "doc-0149-c019",
+      "doc-0149-c020",
+      "doc-0149-c021",
+      "doc-0149-c022",
+      "doc-0149-c023",
+      "doc-0149-c024",
+      "doc-0149-c025",
+      "doc-0149-c026",
+      "doc-0149-c027",
+      "doc-0149-c028",
+      "doc-0149-c029"
+    ]
+  },
+  {
+    "query": "Is there guidance on percent of orders delivered on schedule that Security put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0226",
+    "relevant_chunk_ids": [
+      "doc-0226-c000",
+      "doc-0226-c001",
+      "doc-0226-c002",
+      "doc-0226-c003",
+      "doc-0226-c004",
+      "doc-0226-c005",
+      "doc-0226-c006",
+      "doc-0226-c007",
+      "doc-0226-c008",
+      "doc-0226-c009",
+      "doc-0226-c010",
+      "doc-0226-c011",
+      "doc-0226-c012",
+      "doc-0226-c013",
+      "doc-0226-c014",
+      "doc-0226-c015",
+      "doc-0226-c016",
+      "doc-0226-c017",
+      "doc-0226-c018",
+      "doc-0226-c019"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle bugs that slip past QA into production?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0207",
+    "relevant_chunk_ids": [
+      "doc-0207-c000",
+      "doc-0207-c001",
+      "doc-0207-c002",
+      "doc-0207-c003",
+      "doc-0207-c004",
+      "doc-0207-c005",
+      "doc-0207-c006",
+      "doc-0207-c007",
+      "doc-0207-c008",
+      "doc-0207-c009",
+      "doc-0207-c010",
+      "doc-0207-c011",
+      "doc-0207-c012",
+      "doc-0207-c013",
+      "doc-0207-c014",
+      "doc-0207-c015",
+      "doc-0207-c016",
+      "doc-0207-c017",
+      "doc-0207-c018",
+      "doc-0207-c019",
+      "doc-0207-c020",
+      "doc-0207-c021",
+      "doc-0207-c022",
+      "doc-0207-c023",
+      "doc-0207-c024"
+    ]
+  },
+  {
+    "query": "I need details on reference MEE-2048, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0048",
+    "relevant_chunk_ids": [
+      "doc-0048-c000"
+    ]
+  },
+  {
+    "query": "Which document was Noah Vargas last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0438",
+    "relevant_chunk_ids": [
+      "doc-0438-c000"
+    ]
+  },
+  {
+    "query": "Which document was Diego Kowalski last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0231",
+    "relevant_chunk_ids": [
+      "doc-0231-c000"
+    ]
+  },
+  {
+    "query": "What's Legal & Compliance's latest thinking on ordering new equipment, especially for Compass Payments?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0291",
+    "relevant_chunk_ids": [
+      "doc-0291-c000",
+      "doc-0291-c001",
+      "doc-0291-c002",
+      "doc-0291-c003",
+      "doc-0291-c004",
+      "doc-0291-c005",
+      "doc-0291-c006",
+      "doc-0291-c007",
+      "doc-0291-c008",
+      "doc-0291-c009",
+      "doc-0291-c010",
+      "doc-0291-c011",
+      "doc-0291-c012",
+      "doc-0291-c013",
+      "doc-0291-c014",
+      "doc-0291-c015"
+    ]
+  },
+  {
+    "query": "What's the status of case RUN-2224?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0224",
+    "relevant_chunk_ids": [
+      "doc-0224-c000"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle profit margin?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0314",
+    "relevant_chunk_ids": [
+      "doc-0314-c000",
+      "doc-0314-c001",
+      "doc-0314-c002",
+      "doc-0314-c003",
+      "doc-0314-c004",
+      "doc-0314-c005",
+      "doc-0314-c006",
+      "doc-0314-c007",
+      "doc-0314-c008",
+      "doc-0314-c009",
+      "doc-0314-c010",
+      "doc-0314-c011",
+      "doc-0314-c012",
+      "doc-0314-c013",
+      "doc-0314-c014",
+      "doc-0314-c015",
+      "doc-0314-c016",
+      "doc-0314-c017",
+      "doc-0314-c018",
+      "doc-0314-c019",
+      "doc-0314-c020",
+      "doc-0314-c021"
+    ]
+  },
+  {
+    "query": "Pull up the document for case COM-2210.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0210",
+    "relevant_chunk_ids": [
+      "doc-0210-c000"
+    ]
+  },
+  {
+    "query": "When was FAQ-2493 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0493",
+    "relevant_chunk_ids": [
+      "doc-0493-c000"
+    ]
+  },
+  {
+    "query": "For teams in North America, how do we handle extra pay for being on call?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0271",
+    "relevant_chunk_ids": [
+      "doc-0271-c000",
+      "doc-0271-c001",
+      "doc-0271-c002",
+      "doc-0271-c003",
+      "doc-0271-c004",
+      "doc-0271-c005",
+      "doc-0271-c006",
+      "doc-0271-c007",
+      "doc-0271-c008",
+      "doc-0271-c009",
+      "doc-0271-c010",
+      "doc-0271-c011",
+      "doc-0271-c012",
+      "doc-0271-c013",
+      "doc-0271-c014",
+      "doc-0271-c015",
+      "doc-0271-c016",
+      "doc-0271-c017",
+      "doc-0271-c018",
+      "doc-0271-c019",
+      "doc-0271-c020",
+      "doc-0271-c021",
+      "doc-0271-c022",
+      "doc-0271-c023",
+      "doc-0271-c024",
+      "doc-0271-c025"
+    ]
+  },
+  {
+    "query": "Pull up the document for case MEE-2009.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0009",
+    "relevant_chunk_ids": [
+      "doc-0009-c000"
+    ]
+  },
+  {
+    "query": "Within Data & Analytics, sign-off needed to refund a customer for Compass Payments -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0390",
+    "relevant_chunk_ids": [
+      "doc-0390-c000",
+      "doc-0390-c001",
+      "doc-0390-c002",
+      "doc-0390-c003",
+      "doc-0390-c004",
+      "doc-0390-c005",
+      "doc-0390-c006",
+      "doc-0390-c007",
+      "doc-0390-c008",
+      "doc-0390-c009",
+      "doc-0390-c010",
+      "doc-0390-c011",
+      "doc-0390-c012",
+      "doc-0390-c013",
+      "doc-0390-c014",
+      "doc-0390-c015",
+      "doc-0390-c016",
+      "doc-0390-c017",
+      "doc-0390-c018",
+      "doc-0390-c019",
+      "doc-0390-c020",
+      "doc-0390-c021",
+      "doc-0390-c022",
+      "doc-0390-c023",
+      "doc-0390-c024",
+      "doc-0390-c025"
+    ]
+  },
+  {
+    "query": "What cases does Liam Petrov currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0347",
+    "relevant_chunk_ids": [
+      "doc-0347-c001"
+    ]
+  },
+  {
+    "query": "When was INC-2057 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0057",
+    "relevant_chunk_ids": [
+      "doc-0057-c001"
+    ]
+  },
+  {
+    "query": "What's the status of case FAQ-2313?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0313",
+    "relevant_chunk_ids": [
+      "doc-0313-c000"
+    ]
+  },
+  {
+    "query": "What's Product's latest thinking on how vacation days build up, especially for Nimbus Data Platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0003",
+    "relevant_chunk_ids": [
+      "doc-0003-c000",
+      "doc-0003-c001",
+      "doc-0003-c002",
+      "doc-0003-c003",
+      "doc-0003-c004",
+      "doc-0003-c005",
+      "doc-0003-c006",
+      "doc-0003-c007",
+      "doc-0003-c008",
+      "doc-0003-c009",
+      "doc-0003-c010",
+      "doc-0003-c011",
+      "doc-0003-c012",
+      "doc-0003-c013",
+      "doc-0003-c014",
+      "doc-0003-c015",
+      "doc-0003-c016"
+    ]
+  },
+  {
+    "query": "What's Data & Analytics's latest thinking on sign-off needed to refund a customer, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0394",
+    "relevant_chunk_ids": [
+      "doc-0394-c000",
+      "doc-0394-c001",
+      "doc-0394-c002",
+      "doc-0394-c003",
+      "doc-0394-c004",
+      "doc-0394-c005",
+      "doc-0394-c006",
+      "doc-0394-c007",
+      "doc-0394-c008",
+      "doc-0394-c009",
+      "doc-0394-c010",
+      "doc-0394-c011",
+      "doc-0394-c012",
+      "doc-0394-c013",
+      "doc-0394-c014",
+      "doc-0394-c015",
+      "doc-0394-c016",
+      "doc-0394-c017",
+      "doc-0394-c018",
+      "doc-0394-c019",
+      "doc-0394-c020",
+      "doc-0394-c021",
+      "doc-0394-c022",
+      "doc-0394-c023",
+      "doc-0394-c024",
+      "doc-0394-c025",
+      "doc-0394-c026",
+      "doc-0394-c027"
+    ]
+  },
+  {
+    "query": "Pull up the document for case INC-2383.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0383",
+    "relevant_chunk_ids": [
+      "doc-0383-c000"
+    ]
+  },
+  {
+    "query": "Which document was Kwame Costa last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0328",
+    "relevant_chunk_ids": [
+      "doc-0328-c001"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with ordering new equipment today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0344",
+    "relevant_chunk_ids": [
+      "doc-0344-c000",
+      "doc-0344-c001",
+      "doc-0344-c002",
+      "doc-0344-c003",
+      "doc-0344-c004",
+      "doc-0344-c005",
+      "doc-0344-c006",
+      "doc-0344-c007",
+      "doc-0344-c008",
+      "doc-0344-c009",
+      "doc-0344-c010",
+      "doc-0344-c011",
+      "doc-0344-c012",
+      "doc-0344-c013",
+      "doc-0344-c014",
+      "doc-0344-c015",
+      "doc-0344-c016",
+      "doc-0344-c017",
+      "doc-0344-c018",
+      "doc-0344-c019",
+      "doc-0344-c020",
+      "doc-0344-c021"
+    ]
+  },
+  {
+    "query": "How does Lighthouse Support Desk deal with ordering new equipment today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0508",
+    "relevant_chunk_ids": [
+      "doc-0508-c000",
+      "doc-0508-c001",
+      "doc-0508-c002",
+      "doc-0508-c003",
+      "doc-0508-c004",
+      "doc-0508-c005",
+      "doc-0508-c006",
+      "doc-0508-c007",
+      "doc-0508-c008",
+      "doc-0508-c009",
+      "doc-0508-c010",
+      "doc-0508-c011",
+      "doc-0508-c012",
+      "doc-0508-c013",
+      "doc-0508-c014"
+    ]
+  },
+  {
+    "query": "Within Data & Analytics, how long we keep customer data for Anchor Auth -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0251",
+    "relevant_chunk_ids": [
+      "doc-0251-c000",
+      "doc-0251-c001",
+      "doc-0251-c002",
+      "doc-0251-c003",
+      "doc-0251-c004",
+      "doc-0251-c005",
+      "doc-0251-c006",
+      "doc-0251-c007",
+      "doc-0251-c008",
+      "doc-0251-c009",
+      "doc-0251-c010",
+      "doc-0251-c011",
+      "doc-0251-c012",
+      "doc-0251-c013",
+      "doc-0251-c014",
+      "doc-0251-c015",
+      "doc-0251-c016",
+      "doc-0251-c017"
+    ]
+  },
+  {
+    "query": "What's the status of case ONB-2108?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0108",
+    "relevant_chunk_ids": [
+      "doc-0108-c001"
+    ]
+  },
+  {
+    "query": "What cases does Omar Kaur currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0028",
+    "relevant_chunk_ids": [
+      "doc-0028-c000"
+    ]
+  },
+  {
+    "query": "Pull up the document for case COM-2258.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0258",
+    "relevant_chunk_ids": [
+      "doc-0258-c000"
+    ]
+  },
+  {
+    "query": "When was RUN-2098 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0098",
+    "relevant_chunk_ids": [
+      "doc-0098-c000"
+    ]
+  },
+  {
+    "query": "Within Product, bugs that slip past QA into production for Lighthouse Support Desk -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0454",
+    "relevant_chunk_ids": [
+      "doc-0454-c000",
+      "doc-0454-c001",
+      "doc-0454-c002",
+      "doc-0454-c003",
+      "doc-0454-c004",
+      "doc-0454-c005",
+      "doc-0454-c006",
+      "doc-0454-c007",
+      "doc-0454-c008",
+      "doc-0454-c009",
+      "doc-0454-c010",
+      "doc-0454-c011",
+      "doc-0454-c012",
+      "doc-0454-c013",
+      "doc-0454-c014",
+      "doc-0454-c015",
+      "doc-0454-c016",
+      "doc-0454-c017",
+      "doc-0454-c018",
+      "doc-0454-c019",
+      "doc-0454-c020",
+      "doc-0454-c021",
+      "doc-0454-c022",
+      "doc-0454-c023",
+      "doc-0454-c024"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how vacation days build up?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0191",
+    "relevant_chunk_ids": [
+      "doc-0191-c000",
+      "doc-0191-c001",
+      "doc-0191-c002",
+      "doc-0191-c003",
+      "doc-0191-c004",
+      "doc-0191-c005",
+      "doc-0191-c006",
+      "doc-0191-c007",
+      "doc-0191-c008",
+      "doc-0191-c009",
+      "doc-0191-c010",
+      "doc-0191-c011",
+      "doc-0191-c012",
+      "doc-0191-c013",
+      "doc-0191-c014",
+      "doc-0191-c015",
+      "doc-0191-c016",
+      "doc-0191-c017",
+      "doc-0191-c018",
+      "doc-0191-c019",
+      "doc-0191-c020",
+      "doc-0191-c021"
+    ]
+  },
+  {
+    "query": "Is there guidance on how often performance reviews happen that Legal & Compliance put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0346",
+    "relevant_chunk_ids": [
+      "doc-0346-c000",
+      "doc-0346-c001",
+      "doc-0346-c002",
+      "doc-0346-c003",
+      "doc-0346-c004",
+      "doc-0346-c005",
+      "doc-0346-c006",
+      "doc-0346-c007",
+      "doc-0346-c008",
+      "doc-0346-c009",
+      "doc-0346-c010",
+      "doc-0346-c011",
+      "doc-0346-c012",
+      "doc-0346-c013",
+      "doc-0346-c014",
+      "doc-0346-c015",
+      "doc-0346-c016",
+      "doc-0346-c017"
+    ]
+  },
+  {
+    "query": "Which document was Zara Osei last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0199",
+    "relevant_chunk_ids": [
+      "doc-0199-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on how accurate product-level demand forecasts are that Operations put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0309",
+    "relevant_chunk_ids": [
+      "doc-0309-c000",
+      "doc-0309-c001",
+      "doc-0309-c002",
+      "doc-0309-c003",
+      "doc-0309-c004",
+      "doc-0309-c005",
+      "doc-0309-c006",
+      "doc-0309-c007",
+      "doc-0309-c008",
+      "doc-0309-c009",
+      "doc-0309-c010",
+      "doc-0309-c011",
+      "doc-0309-c012",
+      "doc-0309-c013",
+      "doc-0309-c014",
+      "doc-0309-c015",
+      "doc-0309-c016",
+      "doc-0309-c017",
+      "doc-0309-c018",
+      "doc-0309-c019",
+      "doc-0309-c020",
+      "doc-0309-c021"
+    ]
+  },
+  {
+    "query": "What's the status of case RUN-2079?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0079",
+    "relevant_chunk_ids": [
+      "doc-0079-c001"
+    ]
+  },
+  {
+    "query": "How does Vantage Analytics Suite deal with extra pay for being on call today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0343",
+    "relevant_chunk_ids": [
+      "doc-0343-c000",
+      "doc-0343-c001",
+      "doc-0343-c002",
+      "doc-0343-c003",
+      "doc-0343-c004",
+      "doc-0343-c005",
+      "doc-0343-c006",
+      "doc-0343-c007",
+      "doc-0343-c008",
+      "doc-0343-c009",
+      "doc-0343-c010",
+      "doc-0343-c011",
+      "doc-0343-c012",
+      "doc-0343-c013",
+      "doc-0343-c014",
+      "doc-0343-c015",
+      "doc-0343-c016",
+      "doc-0343-c017",
+      "doc-0343-c018",
+      "doc-0343-c019",
+      "doc-0343-c020",
+      "doc-0343-c021",
+      "doc-0343-c022",
+      "doc-0343-c023",
+      "doc-0343-c024"
+    ]
+  },
+  {
+    "query": "Within Engineering, sign-off needed to refund a customer for Forge API Gateway -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0164",
+    "relevant_chunk_ids": [
+      "doc-0164-c000",
+      "doc-0164-c001",
+      "doc-0164-c002",
+      "doc-0164-c003",
+      "doc-0164-c004",
+      "doc-0164-c005",
+      "doc-0164-c006",
+      "doc-0164-c007",
+      "doc-0164-c008",
+      "doc-0164-c009",
+      "doc-0164-c010",
+      "doc-0164-c011",
+      "doc-0164-c012",
+      "doc-0164-c013",
+      "doc-0164-c014",
+      "doc-0164-c015",
+      "doc-0164-c016",
+      "doc-0164-c017",
+      "doc-0164-c018",
+      "doc-0164-c019",
+      "doc-0164-c020",
+      "doc-0164-c021",
+      "doc-0164-c022",
+      "doc-0164-c023",
+      "doc-0164-c024",
+      "doc-0164-c025",
+      "doc-0164-c026",
+      "doc-0164-c027",
+      "doc-0164-c028",
+      "doc-0164-c029",
+      "doc-0164-c030",
+      "doc-0164-c031",
+      "doc-0164-c032"
+    ]
+  },
+  {
+    "query": "Is there guidance on time off for new parents that Customer Support put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0001",
+    "relevant_chunk_ids": [
+      "doc-0001-c000",
+      "doc-0001-c001",
+      "doc-0001-c002",
+      "doc-0001-c003",
+      "doc-0001-c004",
+      "doc-0001-c005",
+      "doc-0001-c006",
+      "doc-0001-c007",
+      "doc-0001-c008",
+      "doc-0001-c009",
+      "doc-0001-c010",
+      "doc-0001-c011",
+      "doc-0001-c012",
+      "doc-0001-c013",
+      "doc-0001-c014",
+      "doc-0001-c015",
+      "doc-0001-c016",
+      "doc-0001-c017",
+      "doc-0001-c018",
+      "doc-0001-c019",
+      "doc-0001-c020",
+      "doc-0001-c021",
+      "doc-0001-c022"
+    ]
+  },
+  {
+    "query": "When was QUA-2358 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0358",
+    "relevant_chunk_ids": [
+      "doc-0358-c001"
+    ]
+  },
+  {
+    "query": "Which document was Aisha Adeyemi last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0100",
+    "relevant_chunk_ids": [
+      "doc-0100-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference QUA-2010?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0010",
+    "relevant_chunk_ids": [
+      "doc-0010-c001"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with how long we keep customer data today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0054",
+    "relevant_chunk_ids": [
+      "doc-0054-c000",
+      "doc-0054-c001",
+      "doc-0054-c002",
+      "doc-0054-c003",
+      "doc-0054-c004",
+      "doc-0054-c005",
+      "doc-0054-c006",
+      "doc-0054-c007",
+      "doc-0054-c008",
+      "doc-0054-c009",
+      "doc-0054-c010",
+      "doc-0054-c011",
+      "doc-0054-c012",
+      "doc-0054-c013",
+      "doc-0054-c014",
+      "doc-0054-c015",
+      "doc-0054-c016",
+      "doc-0054-c017",
+      "doc-0054-c018",
+      "doc-0054-c019",
+      "doc-0054-c020",
+      "doc-0054-c021",
+      "doc-0054-c022"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how long we keep customer data?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0045",
+    "relevant_chunk_ids": [
+      "doc-0045-c000",
+      "doc-0045-c001",
+      "doc-0045-c002",
+      "doc-0045-c003",
+      "doc-0045-c004",
+      "doc-0045-c005",
+      "doc-0045-c006",
+      "doc-0045-c007",
+      "doc-0045-c008",
+      "doc-0045-c009",
+      "doc-0045-c010",
+      "doc-0045-c011",
+      "doc-0045-c012",
+      "doc-0045-c013",
+      "doc-0045-c014",
+      "doc-0045-c015",
+      "doc-0045-c016"
+    ]
+  },
+  {
+    "query": "Which document was Ravi Farooq last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0094",
+    "relevant_chunk_ids": [
+      "doc-0094-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference PRO-2395?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0395",
+    "relevant_chunk_ids": [
+      "doc-0395-c001"
+    ]
+  },
+  {
+    "query": "I need details on reference INC-2170, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0170",
+    "relevant_chunk_ids": [
+      "doc-0170-c000"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with how often performance reviews happen today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0478",
+    "relevant_chunk_ids": [
+      "doc-0478-c000",
+      "doc-0478-c001",
+      "doc-0478-c002",
+      "doc-0478-c003",
+      "doc-0478-c004",
+      "doc-0478-c005",
+      "doc-0478-c006",
+      "doc-0478-c007",
+      "doc-0478-c008",
+      "doc-0478-c009",
+      "doc-0478-c010",
+      "doc-0478-c011",
+      "doc-0478-c012",
+      "doc-0478-c013",
+      "doc-0478-c014",
+      "doc-0478-c015",
+      "doc-0478-c016",
+      "doc-0478-c017",
+      "doc-0478-c018",
+      "doc-0478-c019",
+      "doc-0478-c020"
+    ]
+  },
+  {
+    "query": "Pull up the document for case RUN-2141.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0141",
+    "relevant_chunk_ids": [
+      "doc-0141-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference FAQ-2338?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0338",
+    "relevant_chunk_ids": [
+      "doc-0338-c001"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle ordering new equipment?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0330",
+    "relevant_chunk_ids": [
+      "doc-0330-c000",
+      "doc-0330-c001",
+      "doc-0330-c002",
+      "doc-0330-c003",
+      "doc-0330-c004",
+      "doc-0330-c005",
+      "doc-0330-c006",
+      "doc-0330-c007",
+      "doc-0330-c008",
+      "doc-0330-c009",
+      "doc-0330-c010",
+      "doc-0330-c011",
+      "doc-0330-c012",
+      "doc-0330-c013",
+      "doc-0330-c014"
+    ]
+  },
+  {
+    "query": "Pull up the document for case VEN-2008.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0008",
+    "relevant_chunk_ids": [
+      "doc-0008-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case VEN-2326?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0326",
+    "relevant_chunk_ids": [
+      "doc-0326-c000"
+    ]
+  },
+  {
+    "query": "Within Engineering, extra pay for being on call for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0505",
+    "relevant_chunk_ids": [
+      "doc-0505-c000",
+      "doc-0505-c001",
+      "doc-0505-c002",
+      "doc-0505-c003",
+      "doc-0505-c004",
+      "doc-0505-c005",
+      "doc-0505-c006",
+      "doc-0505-c007",
+      "doc-0505-c008",
+      "doc-0505-c009",
+      "doc-0505-c010",
+      "doc-0505-c011",
+      "doc-0505-c012",
+      "doc-0505-c013",
+      "doc-0505-c014",
+      "doc-0505-c015",
+      "doc-0505-c016",
+      "doc-0505-c017",
+      "doc-0505-c018",
+      "doc-0505-c019",
+      "doc-0505-c020",
+      "doc-0505-c021",
+      "doc-0505-c022",
+      "doc-0505-c023",
+      "doc-0505-c024"
+    ]
+  },
+  {
+    "query": "Which document was Leila Mensah last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0367",
+    "relevant_chunk_ids": [
+      "doc-0367-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference RUN-2324?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0324",
+    "relevant_chunk_ids": [
+      "doc-0324-c001"
+    ]
+  },
+  {
+    "query": "What's the status of case FAQ-2487?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0487",
+    "relevant_chunk_ids": [
+      "doc-0487-c001"
+    ]
+  },
+  {
+    "query": "What's the status of case POL-2409?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0409",
+    "relevant_chunk_ids": [
+      "doc-0409-c001"
+    ]
+  },
+  {
+    "query": "What cases does James Rossi currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0193",
+    "relevant_chunk_ids": [
+      "doc-0193-c001"
+    ]
+  },
+  {
+    "query": "What's Legal & Compliance's latest thinking on getting paid back for business expenses, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0255",
+    "relevant_chunk_ids": [
+      "doc-0255-c000",
+      "doc-0255-c001",
+      "doc-0255-c002",
+      "doc-0255-c003",
+      "doc-0255-c004",
+      "doc-0255-c005",
+      "doc-0255-c006",
+      "doc-0255-c007",
+      "doc-0255-c008",
+      "doc-0255-c009",
+      "doc-0255-c010",
+      "doc-0255-c011",
+      "doc-0255-c012",
+      "doc-0255-c013",
+      "doc-0255-c014",
+      "doc-0255-c015",
+      "doc-0255-c016",
+      "doc-0255-c017",
+      "doc-0255-c018",
+      "doc-0255-c019",
+      "doc-0255-c020",
+      "doc-0255-c021",
+      "doc-0255-c022",
+      "doc-0255-c023",
+      "doc-0255-c024"
+    ]
+  },
+  {
+    "query": "Within Human Resources, bugs that slip past QA into production for Relay Notifications -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0511",
+    "relevant_chunk_ids": [
+      "doc-0511-c000",
+      "doc-0511-c001",
+      "doc-0511-c002",
+      "doc-0511-c003",
+      "doc-0511-c004",
+      "doc-0511-c005",
+      "doc-0511-c006",
+      "doc-0511-c007",
+      "doc-0511-c008",
+      "doc-0511-c009",
+      "doc-0511-c010",
+      "doc-0511-c011",
+      "doc-0511-c012",
+      "doc-0511-c013",
+      "doc-0511-c014",
+      "doc-0511-c015",
+      "doc-0511-c016",
+      "doc-0511-c017"
+    ]
+  },
+  {
+    "query": "What cases does Amara Mensah currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0329",
+    "relevant_chunk_ids": [
+      "doc-0329-c001"
+    ]
+  },
+  {
+    "query": "Which document was Omar Kowalski last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0341",
+    "relevant_chunk_ids": [
+      "doc-0341-c000"
+    ]
+  },
+  {
+    "query": "What cases does Noah Lindgren currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0389",
+    "relevant_chunk_ids": [
+      "doc-0389-c000"
+    ]
+  },
+  {
+    "query": "What cases does Diego Costa currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0195",
+    "relevant_chunk_ids": [
+      "doc-0195-c001"
+    ]
+  },
+  {
+    "query": "Is there guidance on time off for new parents that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0375",
+    "relevant_chunk_ids": [
+      "doc-0375-c000",
+      "doc-0375-c001",
+      "doc-0375-c002",
+      "doc-0375-c003",
+      "doc-0375-c004",
+      "doc-0375-c005",
+      "doc-0375-c006",
+      "doc-0375-c007",
+      "doc-0375-c008",
+      "doc-0375-c009",
+      "doc-0375-c010",
+      "doc-0375-c011",
+      "doc-0375-c012",
+      "doc-0375-c013",
+      "doc-0375-c014",
+      "doc-0375-c015",
+      "doc-0375-c016",
+      "doc-0375-c017",
+      "doc-0375-c018",
+      "doc-0375-c019",
+      "doc-0375-c020",
+      "doc-0375-c021",
+      "doc-0375-c022",
+      "doc-0375-c023",
+      "doc-0375-c024"
+    ]
+  },
+  {
+    "query": "Is there guidance on the pile of unresolved support tickets that Product put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0302",
+    "relevant_chunk_ids": [
+      "doc-0302-c000",
+      "doc-0302-c001",
+      "doc-0302-c002",
+      "doc-0302-c003",
+      "doc-0302-c004",
+      "doc-0302-c005",
+      "doc-0302-c006",
+      "doc-0302-c007",
+      "doc-0302-c008",
+      "doc-0302-c009",
+      "doc-0302-c010",
+      "doc-0302-c011",
+      "doc-0302-c012",
+      "doc-0302-c013",
+      "doc-0302-c014",
+      "doc-0302-c015",
+      "doc-0302-c016",
+      "doc-0302-c017",
+      "doc-0302-c018",
+      "doc-0302-c019",
+      "doc-0302-c020",
+      "doc-0302-c021",
+      "doc-0302-c022",
+      "doc-0302-c023",
+      "doc-0302-c024"
+    ]
+  },
+  {
+    "query": "When was QUA-2402 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0402",
+    "relevant_chunk_ids": [
+      "doc-0402-c000"
+    ]
+  },
+  {
+    "query": "Within Data & Analytics, when and how to escalate an incident for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0151",
+    "relevant_chunk_ids": [
+      "doc-0151-c000",
+      "doc-0151-c001",
+      "doc-0151-c002",
+      "doc-0151-c003",
+      "doc-0151-c004",
+      "doc-0151-c005",
+      "doc-0151-c006",
+      "doc-0151-c007",
+      "doc-0151-c008",
+      "doc-0151-c009",
+      "doc-0151-c010",
+      "doc-0151-c011",
+      "doc-0151-c012",
+      "doc-0151-c013",
+      "doc-0151-c014",
+      "doc-0151-c015",
+      "doc-0151-c016",
+      "doc-0151-c017",
+      "doc-0151-c018",
+      "doc-0151-c019",
+      "doc-0151-c020"
+    ]
+  },
+  {
+    "query": "What's Sales's latest thinking on how long we keep customer data, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0430",
+    "relevant_chunk_ids": [
+      "doc-0430-c000",
+      "doc-0430-c001",
+      "doc-0430-c002",
+      "doc-0430-c003",
+      "doc-0430-c004",
+      "doc-0430-c005",
+      "doc-0430-c006",
+      "doc-0430-c007",
+      "doc-0430-c008",
+      "doc-0430-c009",
+      "doc-0430-c010",
+      "doc-0430-c011",
+      "doc-0430-c012",
+      "doc-0430-c013",
+      "doc-0430-c014",
+      "doc-0430-c015",
+      "doc-0430-c016",
+      "doc-0430-c017"
+    ]
+  },
+  {
+    "query": "What's Operations's latest thinking on how long support tickets take to resolve, especially for Nimbus Data Platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0128",
+    "relevant_chunk_ids": [
+      "doc-0128-c000",
+      "doc-0128-c001",
+      "doc-0128-c002",
+      "doc-0128-c003",
+      "doc-0128-c004",
+      "doc-0128-c005",
+      "doc-0128-c006",
+      "doc-0128-c007",
+      "doc-0128-c008",
+      "doc-0128-c009",
+      "doc-0128-c010",
+      "doc-0128-c011",
+      "doc-0128-c012",
+      "doc-0128-c013",
+      "doc-0128-c014",
+      "doc-0128-c015",
+      "doc-0128-c016",
+      "doc-0128-c017",
+      "doc-0128-c018",
+      "doc-0128-c019",
+      "doc-0128-c020",
+      "doc-0128-c021",
+      "doc-0128-c022",
+      "doc-0128-c023",
+      "doc-0128-c024"
+    ]
+  },
+  {
+    "query": "What cases does Elena Larsson currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0279",
+    "relevant_chunk_ids": [
+      "doc-0279-c000"
+    ]
+  },
+  {
+    "query": "Pull up the document for case COM-2442.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0442",
+    "relevant_chunk_ids": [
+      "doc-0442-c001"
+    ]
+  },
+  {
+    "query": "Within Security, how long support tickets take to resolve for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0166",
+    "relevant_chunk_ids": [
+      "doc-0166-c000",
+      "doc-0166-c001",
+      "doc-0166-c002",
+      "doc-0166-c003",
+      "doc-0166-c004",
+      "doc-0166-c005",
+      "doc-0166-c006",
+      "doc-0166-c007",
+      "doc-0166-c008",
+      "doc-0166-c009",
+      "doc-0166-c010",
+      "doc-0166-c011",
+      "doc-0166-c012",
+      "doc-0166-c013",
+      "doc-0166-c014",
+      "doc-0166-c015",
+      "doc-0166-c016",
+      "doc-0166-c017",
+      "doc-0166-c018",
+      "doc-0166-c019",
+      "doc-0166-c020",
+      "doc-0166-c021",
+      "doc-0166-c022",
+      "doc-0166-c023",
+      "doc-0166-c024",
+      "doc-0166-c025",
+      "doc-0166-c026"
+    ]
+  },
+  {
+    "query": "What's the status of case QUA-2018?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0018",
+    "relevant_chunk_ids": [
+      "doc-0018-c000"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on sign-off needed to refund a customer, especially for Beacon CRM?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0211",
+    "relevant_chunk_ids": [
+      "doc-0211-c000",
+      "doc-0211-c001",
+      "doc-0211-c002",
+      "doc-0211-c003",
+      "doc-0211-c004",
+      "doc-0211-c005",
+      "doc-0211-c006",
+      "doc-0211-c007",
+      "doc-0211-c008",
+      "doc-0211-c009",
+      "doc-0211-c010",
+      "doc-0211-c011",
+      "doc-0211-c012",
+      "doc-0211-c013",
+      "doc-0211-c014"
+    ]
+  },
+  {
+    "query": "For teams in EMEA, how do we handle how long we keep customer data?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0196",
+    "relevant_chunk_ids": [
+      "doc-0196-c000",
+      "doc-0196-c001",
+      "doc-0196-c002",
+      "doc-0196-c003",
+      "doc-0196-c004",
+      "doc-0196-c005",
+      "doc-0196-c006",
+      "doc-0196-c007",
+      "doc-0196-c008",
+      "doc-0196-c009",
+      "doc-0196-c010",
+      "doc-0196-c011",
+      "doc-0196-c012",
+      "doc-0196-c013",
+      "doc-0196-c014",
+      "doc-0196-c015",
+      "doc-0196-c016",
+      "doc-0196-c017",
+      "doc-0196-c018",
+      "doc-0196-c019",
+      "doc-0196-c020",
+      "doc-0196-c021",
+      "doc-0196-c022",
+      "doc-0196-c023",
+      "doc-0196-c024",
+      "doc-0196-c025"
+    ]
+  },
+  {
+    "query": "What's the status of case ONB-2353?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0353",
+    "relevant_chunk_ids": [
+      "doc-0353-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case MEE-2503?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0503",
+    "relevant_chunk_ids": [
+      "doc-0503-c001"
+    ]
+  },
+  {
+    "query": "How does Horizon Reporting deal with ordering new equipment today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0381",
+    "relevant_chunk_ids": [
+      "doc-0381-c000",
+      "doc-0381-c001",
+      "doc-0381-c002",
+      "doc-0381-c003",
+      "doc-0381-c004",
+      "doc-0381-c005",
+      "doc-0381-c006",
+      "doc-0381-c007",
+      "doc-0381-c008",
+      "doc-0381-c009",
+      "doc-0381-c010",
+      "doc-0381-c011",
+      "doc-0381-c012",
+      "doc-0381-c013",
+      "doc-0381-c014",
+      "doc-0381-c015",
+      "doc-0381-c016",
+      "doc-0381-c017",
+      "doc-0381-c018",
+      "doc-0381-c019",
+      "doc-0381-c020",
+      "doc-0381-c021"
+    ]
+  },
+  {
+    "query": "Which document was Daniel Silva last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0334",
+    "relevant_chunk_ids": [
+      "doc-0334-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on how often passwords must change that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0107",
+    "relevant_chunk_ids": [
+      "doc-0107-c000",
+      "doc-0107-c001",
+      "doc-0107-c002",
+      "doc-0107-c003",
+      "doc-0107-c004",
+      "doc-0107-c005",
+      "doc-0107-c006",
+      "doc-0107-c007",
+      "doc-0107-c008",
+      "doc-0107-c009",
+      "doc-0107-c010",
+      "doc-0107-c011",
+      "doc-0107-c012",
+      "doc-0107-c013",
+      "doc-0107-c014",
+      "doc-0107-c015",
+      "doc-0107-c016",
+      "doc-0107-c017",
+      "doc-0107-c018",
+      "doc-0107-c019",
+      "doc-0107-c020",
+      "doc-0107-c021",
+      "doc-0107-c022",
+      "doc-0107-c023",
+      "doc-0107-c024",
+      "doc-0107-c025"
+    ]
+  },
+  {
+    "query": "For teams in EMEA, how do we handle how often performance reviews happen?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0465",
+    "relevant_chunk_ids": [
+      "doc-0465-c000",
+      "doc-0465-c001",
+      "doc-0465-c002",
+      "doc-0465-c003",
+      "doc-0465-c004",
+      "doc-0465-c005",
+      "doc-0465-c006",
+      "doc-0465-c007",
+      "doc-0465-c008",
+      "doc-0465-c009",
+      "doc-0465-c010",
+      "doc-0465-c011",
+      "doc-0465-c012",
+      "doc-0465-c013",
+      "doc-0465-c014",
+      "doc-0465-c015",
+      "doc-0465-c016",
+      "doc-0465-c017",
+      "doc-0465-c018",
+      "doc-0465-c019",
+      "doc-0465-c020",
+      "doc-0465-c021",
+      "doc-0465-c022",
+      "doc-0465-c023",
+      "doc-0465-c024",
+      "doc-0465-c025"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2318?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0318",
+    "relevant_chunk_ids": [
+      "doc-0318-c000"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle granting system access to contractors?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0150",
+    "relevant_chunk_ids": [
+      "doc-0150-c000",
+      "doc-0150-c001",
+      "doc-0150-c002",
+      "doc-0150-c003",
+      "doc-0150-c004",
+      "doc-0150-c005",
+      "doc-0150-c006",
+      "doc-0150-c007",
+      "doc-0150-c008",
+      "doc-0150-c009",
+      "doc-0150-c010",
+      "doc-0150-c011",
+      "doc-0150-c012",
+      "doc-0150-c013",
+      "doc-0150-c014",
+      "doc-0150-c015",
+      "doc-0150-c016",
+      "doc-0150-c017",
+      "doc-0150-c018",
+      "doc-0150-c019",
+      "doc-0150-c020",
+      "doc-0150-c021",
+      "doc-0150-c022",
+      "doc-0150-c023",
+      "doc-0150-c024",
+      "doc-0150-c025",
+      "doc-0150-c026",
+      "doc-0150-c027"
+    ]
+  },
+  {
+    "query": "Is there guidance on bringing a new supplier on board that Customer Support put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0468",
+    "relevant_chunk_ids": [
+      "doc-0468-c000",
+      "doc-0468-c001",
+      "doc-0468-c002",
+      "doc-0468-c003",
+      "doc-0468-c004",
+      "doc-0468-c005",
+      "doc-0468-c006",
+      "doc-0468-c007",
+      "doc-0468-c008",
+      "doc-0468-c009",
+      "doc-0468-c010",
+      "doc-0468-c011",
+      "doc-0468-c012",
+      "doc-0468-c013",
+      "doc-0468-c014",
+      "doc-0468-c015",
+      "doc-0468-c016",
+      "doc-0468-c017",
+      "doc-0468-c018",
+      "doc-0468-c019",
+      "doc-0468-c020"
+    ]
+  },
+  {
+    "query": "For teams in APAC, how do we handle extra pay for being on call?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0350",
+    "relevant_chunk_ids": [
+      "doc-0350-c000",
+      "doc-0350-c001",
+      "doc-0350-c002",
+      "doc-0350-c003",
+      "doc-0350-c004",
+      "doc-0350-c005",
+      "doc-0350-c006",
+      "doc-0350-c007",
+      "doc-0350-c008",
+      "doc-0350-c009",
+      "doc-0350-c010",
+      "doc-0350-c011",
+      "doc-0350-c012",
+      "doc-0350-c013",
+      "doc-0350-c014",
+      "doc-0350-c015",
+      "doc-0350-c016",
+      "doc-0350-c017",
+      "doc-0350-c018",
+      "doc-0350-c019"
+    ]
+  },
+  {
+    "query": "Pull up the document for case QUA-2412.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0412",
+    "relevant_chunk_ids": [
+      "doc-0412-c001"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with MAU trend today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0162",
+    "relevant_chunk_ids": [
+      "doc-0162-c000",
+      "doc-0162-c001",
+      "doc-0162-c002",
+      "doc-0162-c003",
+      "doc-0162-c004",
+      "doc-0162-c005",
+      "doc-0162-c006",
+      "doc-0162-c007",
+      "doc-0162-c008",
+      "doc-0162-c009",
+      "doc-0162-c010",
+      "doc-0162-c011",
+      "doc-0162-c012",
+      "doc-0162-c013",
+      "doc-0162-c014",
+      "doc-0162-c015",
+      "doc-0162-c016",
+      "doc-0162-c017"
+    ]
+  },
+  {
+    "query": "What's the status of case INC-2103?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0103",
+    "relevant_chunk_ids": [
+      "doc-0103-c001"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle sign-off needed to refund a customer?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0004",
+    "relevant_chunk_ids": [
+      "doc-0004-c000",
+      "doc-0004-c001",
+      "doc-0004-c002",
+      "doc-0004-c003",
+      "doc-0004-c004",
+      "doc-0004-c005",
+      "doc-0004-c006",
+      "doc-0004-c007",
+      "doc-0004-c008",
+      "doc-0004-c009",
+      "doc-0004-c010",
+      "doc-0004-c011",
+      "doc-0004-c012",
+      "doc-0004-c013",
+      "doc-0004-c014",
+      "doc-0004-c015",
+      "doc-0004-c016"
+    ]
+  },
+  {
+    "query": "Within Human Resources, how accurate product-level demand forecasts are for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0184",
+    "relevant_chunk_ids": [
+      "doc-0184-c000",
+      "doc-0184-c001",
+      "doc-0184-c002",
+      "doc-0184-c003",
+      "doc-0184-c004",
+      "doc-0184-c005",
+      "doc-0184-c006",
+      "doc-0184-c007",
+      "doc-0184-c008",
+      "doc-0184-c009",
+      "doc-0184-c010",
+      "doc-0184-c011",
+      "doc-0184-c012",
+      "doc-0184-c013",
+      "doc-0184-c014",
+      "doc-0184-c015",
+      "doc-0184-c016",
+      "doc-0184-c017",
+      "doc-0184-c018",
+      "doc-0184-c019",
+      "doc-0184-c020",
+      "doc-0184-c021",
+      "doc-0184-c022",
+      "doc-0184-c023",
+      "doc-0184-c024"
+    ]
+  },
+  {
+    "query": "Is there guidance on how often passwords must change that Legal & Compliance put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0333",
+    "relevant_chunk_ids": [
+      "doc-0333-c000",
+      "doc-0333-c001",
+      "doc-0333-c002",
+      "doc-0333-c003",
+      "doc-0333-c004",
+      "doc-0333-c005",
+      "doc-0333-c006",
+      "doc-0333-c007",
+      "doc-0333-c008",
+      "doc-0333-c009",
+      "doc-0333-c010",
+      "doc-0333-c011",
+      "doc-0333-c012",
+      "doc-0333-c013",
+      "doc-0333-c014",
+      "doc-0333-c015",
+      "doc-0333-c016",
+      "doc-0333-c017",
+      "doc-0333-c018",
+      "doc-0333-c019"
+    ]
+  },
+  {
+    "query": "For teams in APAC, how do we handle who is allowed to work from home?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0089",
+    "relevant_chunk_ids": [
+      "doc-0089-c000",
+      "doc-0089-c001",
+      "doc-0089-c002",
+      "doc-0089-c003",
+      "doc-0089-c004",
+      "doc-0089-c005",
+      "doc-0089-c006",
+      "doc-0089-c007",
+      "doc-0089-c008",
+      "doc-0089-c009",
+      "doc-0089-c010",
+      "doc-0089-c011",
+      "doc-0089-c012",
+      "doc-0089-c013",
+      "doc-0089-c014",
+      "doc-0089-c015",
+      "doc-0089-c016",
+      "doc-0089-c017",
+      "doc-0089-c018",
+      "doc-0089-c019",
+      "doc-0089-c020",
+      "doc-0089-c021"
+    ]
+  },
+  {
+    "query": "Is there guidance on when and how to escalate an incident that Finance put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0444",
+    "relevant_chunk_ids": [
+      "doc-0444-c000",
+      "doc-0444-c001",
+      "doc-0444-c002",
+      "doc-0444-c003",
+      "doc-0444-c004",
+      "doc-0444-c005",
+      "doc-0444-c006",
+      "doc-0444-c007",
+      "doc-0444-c008",
+      "doc-0444-c009",
+      "doc-0444-c010",
+      "doc-0444-c011",
+      "doc-0444-c012",
+      "doc-0444-c013",
+      "doc-0444-c014",
+      "doc-0444-c015",
+      "doc-0444-c016",
+      "doc-0444-c017",
+      "doc-0444-c018",
+      "doc-0444-c019",
+      "doc-0444-c020",
+      "doc-0444-c021",
+      "doc-0444-c022",
+      "doc-0444-c023",
+      "doc-0444-c024",
+      "doc-0444-c025"
+    ]
+  },
+  {
+    "query": "What's the status of case MEE-2017?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0017",
+    "relevant_chunk_ids": [
+      "doc-0017-c001"
+    ]
+  },
+  {
+    "query": "I need details on reference ONB-2131, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0131",
+    "relevant_chunk_ids": [
+      "doc-0131-c000"
+    ]
+  },
+  {
+    "query": "Within Sales, slowest 5% of API response times for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0453",
+    "relevant_chunk_ids": [
+      "doc-0453-c000",
+      "doc-0453-c001",
+      "doc-0453-c002",
+      "doc-0453-c003",
+      "doc-0453-c004",
+      "doc-0453-c005",
+      "doc-0453-c006",
+      "doc-0453-c007",
+      "doc-0453-c008",
+      "doc-0453-c009",
+      "doc-0453-c010",
+      "doc-0453-c011",
+      "doc-0453-c012",
+      "doc-0453-c013",
+      "doc-0453-c014",
+      "doc-0453-c015",
+      "doc-0453-c016",
+      "doc-0453-c017",
+      "doc-0453-c018",
+      "doc-0453-c019",
+      "doc-0453-c020",
+      "doc-0453-c021",
+      "doc-0453-c022"
+    ]
+  },
+  {
+    "query": "When was MEE-2369 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0369",
+    "relevant_chunk_ids": [
+      "doc-0369-c000"
+    ]
+  },
+  {
+    "query": "How does Forge API Gateway deal with time off for new parents today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0352",
+    "relevant_chunk_ids": [
+      "doc-0352-c000",
+      "doc-0352-c001",
+      "doc-0352-c002",
+      "doc-0352-c003",
+      "doc-0352-c004",
+      "doc-0352-c005",
+      "doc-0352-c006",
+      "doc-0352-c007",
+      "doc-0352-c008",
+      "doc-0352-c009",
+      "doc-0352-c010",
+      "doc-0352-c011",
+      "doc-0352-c012",
+      "doc-0352-c013",
+      "doc-0352-c014",
+      "doc-0352-c015",
+      "doc-0352-c016",
+      "doc-0352-c017",
+      "doc-0352-c018",
+      "doc-0352-c019",
+      "doc-0352-c020",
+      "doc-0352-c021",
+      "doc-0352-c022",
+      "doc-0352-c023",
+      "doc-0352-c024",
+      "doc-0352-c025",
+      "doc-0352-c026",
+      "doc-0352-c027"
+    ]
+  },
+  {
+    "query": "For teams in APAC, how do we handle extra pay for being on call?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0223",
+    "relevant_chunk_ids": [
+      "doc-0223-c000",
+      "doc-0223-c001",
+      "doc-0223-c002",
+      "doc-0223-c003",
+      "doc-0223-c004",
+      "doc-0223-c005",
+      "doc-0223-c006",
+      "doc-0223-c007",
+      "doc-0223-c008",
+      "doc-0223-c009",
+      "doc-0223-c010",
+      "doc-0223-c011",
+      "doc-0223-c012",
+      "doc-0223-c013"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2421?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0421",
+    "relevant_chunk_ids": [
+      "doc-0421-c001"
+    ]
+  },
+  {
+    "query": "What cases does Mei Haddad currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0259",
+    "relevant_chunk_ids": [
+      "doc-0259-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference QUA-2370?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0370",
+    "relevant_chunk_ids": [
+      "doc-0370-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case MEE-2065?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0065",
+    "relevant_chunk_ids": [
+      "doc-0065-c000"
+    ]
+  },
+  {
+    "query": "Within Sales, revenue kept and expanded from existing customers for Compass Payments -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0178",
+    "relevant_chunk_ids": [
+      "doc-0178-c000",
+      "doc-0178-c001",
+      "doc-0178-c002",
+      "doc-0178-c003",
+      "doc-0178-c004",
+      "doc-0178-c005",
+      "doc-0178-c006",
+      "doc-0178-c007",
+      "doc-0178-c008",
+      "doc-0178-c009",
+      "doc-0178-c010",
+      "doc-0178-c011",
+      "doc-0178-c012",
+      "doc-0178-c013",
+      "doc-0178-c014",
+      "doc-0178-c015",
+      "doc-0178-c016",
+      "doc-0178-c017",
+      "doc-0178-c018",
+      "doc-0178-c019",
+      "doc-0178-c020",
+      "doc-0178-c021",
+      "doc-0178-c022",
+      "doc-0178-c023",
+      "doc-0178-c024",
+      "doc-0178-c025",
+      "doc-0178-c026"
+    ]
+  },
+  {
+    "query": "Who owns case reference PRO-2283?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0283",
+    "relevant_chunk_ids": [
+      "doc-0283-c000"
+    ]
+  },
+  {
+    "query": "Which document was Aisha Okafor last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0437",
+    "relevant_chunk_ids": [
+      "doc-0437-c000"
+    ]
+  },
+  {
+    "query": "What cases does Priya Alvarez currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0198",
+    "relevant_chunk_ids": [
+      "doc-0198-c000"
+    ]
+  },
+  {
+    "query": "How does Forge API Gateway deal with how often performance reviews happen today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0112",
+    "relevant_chunk_ids": [
+      "doc-0112-c000",
+      "doc-0112-c001",
+      "doc-0112-c002",
+      "doc-0112-c003",
+      "doc-0112-c004",
+      "doc-0112-c005",
+      "doc-0112-c006",
+      "doc-0112-c007",
+      "doc-0112-c008",
+      "doc-0112-c009",
+      "doc-0112-c010",
+      "doc-0112-c011",
+      "doc-0112-c012",
+      "doc-0112-c013",
+      "doc-0112-c014",
+      "doc-0112-c015",
+      "doc-0112-c016"
+    ]
+  },
+  {
+    "query": "I need details on reference MEE-2361, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0361",
+    "relevant_chunk_ids": [
+      "doc-0361-c001"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how long we keep customer data?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0467",
+    "relevant_chunk_ids": [
+      "doc-0467-c000",
+      "doc-0467-c001",
+      "doc-0467-c002",
+      "doc-0467-c003",
+      "doc-0467-c004",
+      "doc-0467-c005",
+      "doc-0467-c006",
+      "doc-0467-c007",
+      "doc-0467-c008",
+      "doc-0467-c009",
+      "doc-0467-c010",
+      "doc-0467-c011",
+      "doc-0467-c012",
+      "doc-0467-c013"
+    ]
+  },
+  {
+    "query": "What cases does Wei Silva currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0115",
+    "relevant_chunk_ids": [
+      "doc-0115-c000"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with how often passwords must change today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0475",
+    "relevant_chunk_ids": [
+      "doc-0475-c000",
+      "doc-0475-c001",
+      "doc-0475-c002",
+      "doc-0475-c003",
+      "doc-0475-c004",
+      "doc-0475-c005",
+      "doc-0475-c006",
+      "doc-0475-c007",
+      "doc-0475-c008",
+      "doc-0475-c009",
+      "doc-0475-c010",
+      "doc-0475-c011",
+      "doc-0475-c012",
+      "doc-0475-c013",
+      "doc-0475-c014",
+      "doc-0475-c015",
+      "doc-0475-c016"
+    ]
+  },
+  {
+    "query": "I need details on reference PRO-2155, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0155",
+    "relevant_chunk_ids": [
+      "doc-0155-c000"
+    ]
+  },
+  {
+    "query": "How does Lighthouse Support Desk deal with percent of orders delivered on schedule today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0460",
+    "relevant_chunk_ids": [
+      "doc-0460-c000",
+      "doc-0460-c001",
+      "doc-0460-c002",
+      "doc-0460-c003",
+      "doc-0460-c004",
+      "doc-0460-c005",
+      "doc-0460-c006",
+      "doc-0460-c007",
+      "doc-0460-c008",
+      "doc-0460-c009",
+      "doc-0460-c010",
+      "doc-0460-c011",
+      "doc-0460-c012",
+      "doc-0460-c013",
+      "doc-0460-c014",
+      "doc-0460-c015",
+      "doc-0460-c016",
+      "doc-0460-c017",
+      "doc-0460-c018",
+      "doc-0460-c019",
+      "doc-0460-c020",
+      "doc-0460-c021",
+      "doc-0460-c022",
+      "doc-0460-c023",
+      "doc-0460-c024",
+      "doc-0460-c025",
+      "doc-0460-c026",
+      "doc-0460-c027",
+      "doc-0460-c028",
+      "doc-0460-c029"
+    ]
+  },
+  {
+    "query": "Which document was Priya Lindgren last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0448",
+    "relevant_chunk_ids": [
+      "doc-0448-c001"
+    ]
+  },
+  {
+    "query": "Within Product, time off for new parents for Compass Payments -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0038",
+    "relevant_chunk_ids": [
+      "doc-0038-c000",
+      "doc-0038-c001",
+      "doc-0038-c002",
+      "doc-0038-c003",
+      "doc-0038-c004",
+      "doc-0038-c005",
+      "doc-0038-c006",
+      "doc-0038-c007",
+      "doc-0038-c008",
+      "doc-0038-c009",
+      "doc-0038-c010",
+      "doc-0038-c011",
+      "doc-0038-c012",
+      "doc-0038-c013",
+      "doc-0038-c014",
+      "doc-0038-c015",
+      "doc-0038-c016",
+      "doc-0038-c017",
+      "doc-0038-c018"
+    ]
+  },
+  {
+    "query": "What cases does Ines Vargas currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0449",
+    "relevant_chunk_ids": [
+      "doc-0449-c000"
+    ]
+  },
+  {
+    "query": "Which document was Amara Kowalski last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0078",
+    "relevant_chunk_ids": [
+      "doc-0078-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on percent of orders delivered on schedule that Sales put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0061",
+    "relevant_chunk_ids": [
+      "doc-0061-c000",
+      "doc-0061-c001",
+      "doc-0061-c002",
+      "doc-0061-c003",
+      "doc-0061-c004",
+      "doc-0061-c005",
+      "doc-0061-c006",
+      "doc-0061-c007",
+      "doc-0061-c008",
+      "doc-0061-c009",
+      "doc-0061-c010",
+      "doc-0061-c011",
+      "doc-0061-c012",
+      "doc-0061-c013",
+      "doc-0061-c014",
+      "doc-0061-c015",
+      "doc-0061-c016",
+      "doc-0061-c017",
+      "doc-0061-c018",
+      "doc-0061-c019",
+      "doc-0061-c020",
+      "doc-0061-c021",
+      "doc-0061-c022",
+      "doc-0061-c023",
+      "doc-0061-c024",
+      "doc-0061-c025",
+      "doc-0061-c026",
+      "doc-0061-c027"
+    ]
+  },
+  {
+    "query": "Pull up the document for case INC-2109.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0109",
+    "relevant_chunk_ids": [
+      "doc-0109-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2137?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0137",
+    "relevant_chunk_ids": [
+      "doc-0137-c001"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle when and how to escalate an incident?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0463",
+    "relevant_chunk_ids": [
+      "doc-0463-c000",
+      "doc-0463-c001",
+      "doc-0463-c002",
+      "doc-0463-c003",
+      "doc-0463-c004",
+      "doc-0463-c005",
+      "doc-0463-c006",
+      "doc-0463-c007",
+      "doc-0463-c008",
+      "doc-0463-c009",
+      "doc-0463-c010",
+      "doc-0463-c011",
+      "doc-0463-c012",
+      "doc-0463-c013",
+      "doc-0463-c014",
+      "doc-0463-c015",
+      "doc-0463-c016",
+      "doc-0463-c017",
+      "doc-0463-c018",
+      "doc-0463-c019"
+    ]
+  },
+  {
+    "query": "Within Legal & Compliance, getting paid back for business expenses for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0213",
+    "relevant_chunk_ids": [
+      "doc-0213-c000",
+      "doc-0213-c001",
+      "doc-0213-c002",
+      "doc-0213-c003",
+      "doc-0213-c004",
+      "doc-0213-c005",
+      "doc-0213-c006",
+      "doc-0213-c007",
+      "doc-0213-c008",
+      "doc-0213-c009",
+      "doc-0213-c010",
+      "doc-0213-c011",
+      "doc-0213-c012",
+      "doc-0213-c013",
+      "doc-0213-c014",
+      "doc-0213-c015",
+      "doc-0213-c016",
+      "doc-0213-c017",
+      "doc-0213-c018",
+      "doc-0213-c019",
+      "doc-0213-c020",
+      "doc-0213-c021",
+      "doc-0213-c022",
+      "doc-0213-c023"
+    ]
+  },
+  {
+    "query": "Is there guidance on how often passwords must change that Data & Analytics put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0040",
+    "relevant_chunk_ids": [
+      "doc-0040-c000",
+      "doc-0040-c001",
+      "doc-0040-c002",
+      "doc-0040-c003",
+      "doc-0040-c004",
+      "doc-0040-c005",
+      "doc-0040-c006",
+      "doc-0040-c007",
+      "doc-0040-c008",
+      "doc-0040-c009",
+      "doc-0040-c010",
+      "doc-0040-c011",
+      "doc-0040-c012",
+      "doc-0040-c013",
+      "doc-0040-c014",
+      "doc-0040-c015",
+      "doc-0040-c016",
+      "doc-0040-c017",
+      "doc-0040-c018"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with extra pay for being on call today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0161",
+    "relevant_chunk_ids": [
+      "doc-0161-c000",
+      "doc-0161-c001",
+      "doc-0161-c002",
+      "doc-0161-c003",
+      "doc-0161-c004",
+      "doc-0161-c005",
+      "doc-0161-c006",
+      "doc-0161-c007",
+      "doc-0161-c008",
+      "doc-0161-c009",
+      "doc-0161-c010",
+      "doc-0161-c011",
+      "doc-0161-c012",
+      "doc-0161-c013",
+      "doc-0161-c014",
+      "doc-0161-c015",
+      "doc-0161-c016",
+      "doc-0161-c017",
+      "doc-0161-c018",
+      "doc-0161-c019",
+      "doc-0161-c020",
+      "doc-0161-c021",
+      "doc-0161-c022",
+      "doc-0161-c023"
+    ]
+  },
+  {
+    "query": "What's Sales's latest thinking on how long support tickets take to resolve, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0261",
+    "relevant_chunk_ids": [
+      "doc-0261-c000",
+      "doc-0261-c001",
+      "doc-0261-c002",
+      "doc-0261-c003",
+      "doc-0261-c004",
+      "doc-0261-c005",
+      "doc-0261-c006",
+      "doc-0261-c007",
+      "doc-0261-c008",
+      "doc-0261-c009",
+      "doc-0261-c010",
+      "doc-0261-c011",
+      "doc-0261-c012",
+      "doc-0261-c013",
+      "doc-0261-c014",
+      "doc-0261-c015",
+      "doc-0261-c016",
+      "doc-0261-c017",
+      "doc-0261-c018",
+      "doc-0261-c019",
+      "doc-0261-c020",
+      "doc-0261-c021",
+      "doc-0261-c022"
+    ]
+  },
+  {
+    "query": "Which document was Zara Suzuki last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0024",
+    "relevant_chunk_ids": [
+      "doc-0024-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case RUN-2284?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0284",
+    "relevant_chunk_ids": [
+      "doc-0284-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference QUA-2386?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0386",
+    "relevant_chunk_ids": [
+      "doc-0386-c000"
+    ]
+  },
+  {
+    "query": "What's Engineering's latest thinking on percent of orders delivered on schedule, especially for our core platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0420",
+    "relevant_chunk_ids": [
+      "doc-0420-c000",
+      "doc-0420-c001",
+      "doc-0420-c002",
+      "doc-0420-c003",
+      "doc-0420-c004",
+      "doc-0420-c005",
+      "doc-0420-c006",
+      "doc-0420-c007",
+      "doc-0420-c008",
+      "doc-0420-c009",
+      "doc-0420-c010",
+      "doc-0420-c011",
+      "doc-0420-c012",
+      "doc-0420-c013",
+      "doc-0420-c014",
+      "doc-0420-c015",
+      "doc-0420-c016",
+      "doc-0420-c017",
+      "doc-0420-c018",
+      "doc-0420-c019",
+      "doc-0420-c020"
+    ]
+  },
+  {
+    "query": "What cases does Liam Vargas currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0403",
+    "relevant_chunk_ids": [
+      "doc-0403-c000"
+    ]
+  },
+  {
+    "query": "Pull up the document for case VEN-2091.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0091",
+    "relevant_chunk_ids": [
+      "doc-0091-c000"
+    ]
+  },
+  {
+    "query": "Which document was Kwame Novak last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0235",
+    "relevant_chunk_ids": [
+      "doc-0235-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on how often performance reviews happen that Sales put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0180",
+    "relevant_chunk_ids": [
+      "doc-0180-c000",
+      "doc-0180-c001",
+      "doc-0180-c002",
+      "doc-0180-c003",
+      "doc-0180-c004",
+      "doc-0180-c005",
+      "doc-0180-c006",
+      "doc-0180-c007",
+      "doc-0180-c008",
+      "doc-0180-c009",
+      "doc-0180-c010",
+      "doc-0180-c011",
+      "doc-0180-c012",
+      "doc-0180-c013",
+      "doc-0180-c014",
+      "doc-0180-c015"
+    ]
+  },
+  {
+    "query": "Is there guidance on time off for new parents that Customer Support put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0429",
+    "relevant_chunk_ids": [
+      "doc-0429-c000",
+      "doc-0429-c001",
+      "doc-0429-c002",
+      "doc-0429-c003",
+      "doc-0429-c004",
+      "doc-0429-c005",
+      "doc-0429-c006",
+      "doc-0429-c007",
+      "doc-0429-c008",
+      "doc-0429-c009",
+      "doc-0429-c010",
+      "doc-0429-c011",
+      "doc-0429-c012",
+      "doc-0429-c013",
+      "doc-0429-c014",
+      "doc-0429-c015",
+      "doc-0429-c016",
+      "doc-0429-c017",
+      "doc-0429-c018",
+      "doc-0429-c019",
+      "doc-0429-c020",
+      "doc-0429-c021",
+      "doc-0429-c022",
+      "doc-0429-c023",
+      "doc-0429-c024",
+      "doc-0429-c025",
+      "doc-0429-c026",
+      "doc-0429-c027",
+      "doc-0429-c028",
+      "doc-0429-c029",
+      "doc-0429-c030"
+    ]
+  },
+  {
+    "query": "Pull up the document for case POL-2081.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0081",
+    "relevant_chunk_ids": [
+      "doc-0081-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on how long support tickets take to resolve that Legal & Compliance put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0169",
+    "relevant_chunk_ids": [
+      "doc-0169-c000",
+      "doc-0169-c001",
+      "doc-0169-c002",
+      "doc-0169-c003",
+      "doc-0169-c004",
+      "doc-0169-c005",
+      "doc-0169-c006",
+      "doc-0169-c007",
+      "doc-0169-c008",
+      "doc-0169-c009",
+      "doc-0169-c010",
+      "doc-0169-c011",
+      "doc-0169-c012",
+      "doc-0169-c013",
+      "doc-0169-c014",
+      "doc-0169-c015",
+      "doc-0169-c016",
+      "doc-0169-c017",
+      "doc-0169-c018",
+      "doc-0169-c019"
+    ]
+  },
+  {
+    "query": "For teams in APAC, how do we handle extra pay for being on call?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0121",
+    "relevant_chunk_ids": [
+      "doc-0121-c000",
+      "doc-0121-c001",
+      "doc-0121-c002",
+      "doc-0121-c003",
+      "doc-0121-c004",
+      "doc-0121-c005",
+      "doc-0121-c006",
+      "doc-0121-c007",
+      "doc-0121-c008",
+      "doc-0121-c009",
+      "doc-0121-c010",
+      "doc-0121-c011",
+      "doc-0121-c012",
+      "doc-0121-c013",
+      "doc-0121-c014"
+    ]
+  },
+  {
+    "query": "Which document was Marcus Reyes last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0275",
+    "relevant_chunk_ids": [
+      "doc-0275-c001"
+    ]
+  },
+  {
+    "query": "Is there guidance on how long we keep customer data that Customer Support put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0473",
+    "relevant_chunk_ids": [
+      "doc-0473-c000",
+      "doc-0473-c001",
+      "doc-0473-c002",
+      "doc-0473-c003",
+      "doc-0473-c004",
+      "doc-0473-c005",
+      "doc-0473-c006",
+      "doc-0473-c007",
+      "doc-0473-c008",
+      "doc-0473-c009",
+      "doc-0473-c010",
+      "doc-0473-c011",
+      "doc-0473-c012",
+      "doc-0473-c013",
+      "doc-0473-c014",
+      "doc-0473-c015",
+      "doc-0473-c016",
+      "doc-0473-c017",
+      "doc-0473-c018",
+      "doc-0473-c019"
+    ]
+  },
+  {
+    "query": "Which document was Ravi Haddad last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0339",
+    "relevant_chunk_ids": [
+      "doc-0339-c000"
+    ]
+  },
+  {
+    "query": "Which document was Liam Petrov last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0424",
+    "relevant_chunk_ids": [
+      "doc-0424-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference POL-2428?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0428",
+    "relevant_chunk_ids": [
+      "doc-0428-c000"
+    ]
+  },
+  {
+    "query": "Pull up the document for case PRO-2320.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0320",
+    "relevant_chunk_ids": [
+      "doc-0320-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference COM-2016?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0016",
+    "relevant_chunk_ids": [
+      "doc-0016-c000"
+    ]
+  },
+  {
+    "query": "For teams in North America, how do we handle sign-off needed to refund a customer?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0132",
+    "relevant_chunk_ids": [
+      "doc-0132-c000",
+      "doc-0132-c001",
+      "doc-0132-c002",
+      "doc-0132-c003",
+      "doc-0132-c004",
+      "doc-0132-c005",
+      "doc-0132-c006",
+      "doc-0132-c007",
+      "doc-0132-c008",
+      "doc-0132-c009",
+      "doc-0132-c010",
+      "doc-0132-c011",
+      "doc-0132-c012",
+      "doc-0132-c013",
+      "doc-0132-c014",
+      "doc-0132-c015",
+      "doc-0132-c016",
+      "doc-0132-c017",
+      "doc-0132-c018",
+      "doc-0132-c019",
+      "doc-0132-c020",
+      "doc-0132-c021",
+      "doc-0132-c022",
+      "doc-0132-c023",
+      "doc-0132-c024"
+    ]
+  },
+  {
+    "query": "What's Data & Analytics's latest thinking on percent of orders delivered on schedule, especially for Beacon CRM?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0058",
+    "relevant_chunk_ids": [
+      "doc-0058-c000",
+      "doc-0058-c001",
+      "doc-0058-c002",
+      "doc-0058-c003",
+      "doc-0058-c004",
+      "doc-0058-c005",
+      "doc-0058-c006",
+      "doc-0058-c007",
+      "doc-0058-c008",
+      "doc-0058-c009",
+      "doc-0058-c010",
+      "doc-0058-c011",
+      "doc-0058-c012",
+      "doc-0058-c013",
+      "doc-0058-c014",
+      "doc-0058-c015",
+      "doc-0058-c016",
+      "doc-0058-c017",
+      "doc-0058-c018"
+    ]
+  },
+  {
+    "query": "How does Horizon Reporting deal with how vacation days build up today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0167",
+    "relevant_chunk_ids": [
+      "doc-0167-c000",
+      "doc-0167-c001",
+      "doc-0167-c002",
+      "doc-0167-c003",
+      "doc-0167-c004",
+      "doc-0167-c005",
+      "doc-0167-c006",
+      "doc-0167-c007",
+      "doc-0167-c008",
+      "doc-0167-c009",
+      "doc-0167-c010",
+      "doc-0167-c011",
+      "doc-0167-c012",
+      "doc-0167-c013",
+      "doc-0167-c014",
+      "doc-0167-c015",
+      "doc-0167-c016",
+      "doc-0167-c017",
+      "doc-0167-c018",
+      "doc-0167-c019",
+      "doc-0167-c020",
+      "doc-0167-c021",
+      "doc-0167-c022",
+      "doc-0167-c023"
+    ]
+  },
+  {
+    "query": "What's the status of case VEN-2209?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0209",
+    "relevant_chunk_ids": [
+      "doc-0209-c000"
+    ]
+  },
+  {
+    "query": "Which document was Marcus Dubois last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0012",
+    "relevant_chunk_ids": [
+      "doc-0012-c000"
+    ]
+  },
+  {
+    "query": "What cases does Grace Petrov currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0486",
+    "relevant_chunk_ids": [
+      "doc-0486-c000"
+    ]
+  },
+  {
+    "query": "What cases does Elena Suzuki currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0425",
+    "relevant_chunk_ids": [
+      "doc-0425-c000"
+    ]
+  },
+  {
+    "query": "For teams in APAC, how do we handle MAU trend?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0015",
+    "relevant_chunk_ids": [
+      "doc-0015-c000",
+      "doc-0015-c001",
+      "doc-0015-c002",
+      "doc-0015-c003",
+      "doc-0015-c004",
+      "doc-0015-c005",
+      "doc-0015-c006",
+      "doc-0015-c007",
+      "doc-0015-c008",
+      "doc-0015-c009",
+      "doc-0015-c010",
+      "doc-0015-c011",
+      "doc-0015-c012",
+      "doc-0015-c013",
+      "doc-0015-c014",
+      "doc-0015-c015",
+      "doc-0015-c016",
+      "doc-0015-c017",
+      "doc-0015-c018",
+      "doc-0015-c019",
+      "doc-0015-c020",
+      "doc-0015-c021"
+    ]
+  },
+  {
+    "query": "How does Beacon CRM deal with MAU trend today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0101",
+    "relevant_chunk_ids": [
+      "doc-0101-c000",
+      "doc-0101-c001",
+      "doc-0101-c002",
+      "doc-0101-c003",
+      "doc-0101-c004",
+      "doc-0101-c005",
+      "doc-0101-c006",
+      "doc-0101-c007",
+      "doc-0101-c008",
+      "doc-0101-c009",
+      "doc-0101-c010",
+      "doc-0101-c011",
+      "doc-0101-c012",
+      "doc-0101-c013",
+      "doc-0101-c014",
+      "doc-0101-c015",
+      "doc-0101-c016",
+      "doc-0101-c017"
+    ]
+  },
+  {
+    "query": "Is there guidance on bugs that slip past QA into production that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0139",
+    "relevant_chunk_ids": [
+      "doc-0139-c000",
+      "doc-0139-c001",
+      "doc-0139-c002",
+      "doc-0139-c003",
+      "doc-0139-c004",
+      "doc-0139-c005",
+      "doc-0139-c006",
+      "doc-0139-c007",
+      "doc-0139-c008",
+      "doc-0139-c009",
+      "doc-0139-c010",
+      "doc-0139-c011",
+      "doc-0139-c012",
+      "doc-0139-c013",
+      "doc-0139-c014",
+      "doc-0139-c015",
+      "doc-0139-c016",
+      "doc-0139-c017",
+      "doc-0139-c018"
+    ]
+  },
+  {
+    "query": "When was COM-2445 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0445",
+    "relevant_chunk_ids": [
+      "doc-0445-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference INC-2237?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0237",
+    "relevant_chunk_ids": [
+      "doc-0237-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference MEE-2069?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0069",
+    "relevant_chunk_ids": [
+      "doc-0069-c001"
+    ]
+  },
+  {
+    "query": "I need details on reference INC-2492, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0492",
+    "relevant_chunk_ids": [
+      "doc-0492-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case COM-2319?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0319",
+    "relevant_chunk_ids": [
+      "doc-0319-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case QUA-2067?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0067",
+    "relevant_chunk_ids": [
+      "doc-0067-c000"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on rules for reviewing code before merge, especially for Anchor Auth?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0050",
+    "relevant_chunk_ids": [
+      "doc-0050-c000",
+      "doc-0050-c001",
+      "doc-0050-c002",
+      "doc-0050-c003",
+      "doc-0050-c004",
+      "doc-0050-c005",
+      "doc-0050-c006",
+      "doc-0050-c007",
+      "doc-0050-c008",
+      "doc-0050-c009",
+      "doc-0050-c010",
+      "doc-0050-c011",
+      "doc-0050-c012",
+      "doc-0050-c013",
+      "doc-0050-c014",
+      "doc-0050-c015",
+      "doc-0050-c016",
+      "doc-0050-c017",
+      "doc-0050-c018",
+      "doc-0050-c019",
+      "doc-0050-c020",
+      "doc-0050-c021",
+      "doc-0050-c022",
+      "doc-0050-c023"
+    ]
+  },
+  {
+    "query": "For teams in all regions, how do we handle how to book business travel?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0240",
+    "relevant_chunk_ids": [
+      "doc-0240-c000",
+      "doc-0240-c001",
+      "doc-0240-c002",
+      "doc-0240-c003",
+      "doc-0240-c004",
+      "doc-0240-c005",
+      "doc-0240-c006",
+      "doc-0240-c007",
+      "doc-0240-c008",
+      "doc-0240-c009",
+      "doc-0240-c010",
+      "doc-0240-c011",
+      "doc-0240-c012",
+      "doc-0240-c013",
+      "doc-0240-c014",
+      "doc-0240-c015",
+      "doc-0240-c016",
+      "doc-0240-c017",
+      "doc-0240-c018",
+      "doc-0240-c019",
+      "doc-0240-c020",
+      "doc-0240-c021",
+      "doc-0240-c022",
+      "doc-0240-c023",
+      "doc-0240-c024",
+      "doc-0240-c025",
+      "doc-0240-c026",
+      "doc-0240-c027",
+      "doc-0240-c028",
+      "doc-0240-c029",
+      "doc-0240-c030",
+      "doc-0240-c031"
+    ]
+  },
+  {
+    "query": "I need details on reference POL-2510, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0510",
+    "relevant_chunk_ids": [
+      "doc-0510-c000"
+    ]
+  },
+  {
+    "query": "I need details on reference FAQ-2104, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0104",
+    "relevant_chunk_ids": [
+      "doc-0104-c001"
+    ]
+  },
+  {
+    "query": "Within Data & Analytics, how to book business travel for Vantage Analytics Suite -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0021",
+    "relevant_chunk_ids": [
+      "doc-0021-c000",
+      "doc-0021-c001",
+      "doc-0021-c002",
+      "doc-0021-c003",
+      "doc-0021-c004",
+      "doc-0021-c005",
+      "doc-0021-c006",
+      "doc-0021-c007",
+      "doc-0021-c008",
+      "doc-0021-c009",
+      "doc-0021-c010",
+      "doc-0021-c011",
+      "doc-0021-c012",
+      "doc-0021-c013",
+      "doc-0021-c014",
+      "doc-0021-c015",
+      "doc-0021-c016",
+      "doc-0021-c017",
+      "doc-0021-c018",
+      "doc-0021-c019",
+      "doc-0021-c020",
+      "doc-0021-c021",
+      "doc-0021-c022"
+    ]
+  },
+  {
+    "query": "Who owns case reference ONB-2029?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0029",
+    "relevant_chunk_ids": [
+      "doc-0029-c000"
+    ]
+  },
+  {
+    "query": "Pull up the document for case VEN-2230.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0230",
+    "relevant_chunk_ids": [
+      "doc-0230-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case COM-2498?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0498",
+    "relevant_chunk_ids": [
+      "doc-0498-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on profit margin that Operations put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0416",
+    "relevant_chunk_ids": [
+      "doc-0416-c000",
+      "doc-0416-c001",
+      "doc-0416-c002",
+      "doc-0416-c003",
+      "doc-0416-c004",
+      "doc-0416-c005",
+      "doc-0416-c006",
+      "doc-0416-c007",
+      "doc-0416-c008",
+      "doc-0416-c009",
+      "doc-0416-c010",
+      "doc-0416-c011",
+      "doc-0416-c012",
+      "doc-0416-c013",
+      "doc-0416-c014"
+    ]
+  },
+  {
+    "query": "When was VEN-2414 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0414",
+    "relevant_chunk_ids": [
+      "doc-0414-c000"
+    ]
+  },
+  {
+    "query": "Within Customer Support, sign-off needed to refund a customer for Forge API Gateway -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0267",
+    "relevant_chunk_ids": [
+      "doc-0267-c000",
+      "doc-0267-c001",
+      "doc-0267-c002",
+      "doc-0267-c003",
+      "doc-0267-c004",
+      "doc-0267-c005",
+      "doc-0267-c006",
+      "doc-0267-c007",
+      "doc-0267-c008",
+      "doc-0267-c009",
+      "doc-0267-c010",
+      "doc-0267-c011",
+      "doc-0267-c012",
+      "doc-0267-c013",
+      "doc-0267-c014",
+      "doc-0267-c015",
+      "doc-0267-c016",
+      "doc-0267-c017",
+      "doc-0267-c018"
+    ]
+  },
+  {
+    "query": "When was PRO-2165 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0165",
+    "relevant_chunk_ids": [
+      "doc-0165-c000"
+    ]
+  },
+  {
+    "query": "What cases does Mei Silva currently own?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0208",
+    "relevant_chunk_ids": [
+      "doc-0208-c001"
+    ]
+  },
+  {
+    "query": "When was RUN-2143 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0143",
+    "relevant_chunk_ids": [
+      "doc-0143-c000"
+    ]
+  },
+  {
+    "query": "For teams in North America, how do we handle bugs that slip past QA into production?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0234",
+    "relevant_chunk_ids": [
+      "doc-0234-c000",
+      "doc-0234-c001",
+      "doc-0234-c002",
+      "doc-0234-c003",
+      "doc-0234-c004",
+      "doc-0234-c005",
+      "doc-0234-c006",
+      "doc-0234-c007",
+      "doc-0234-c008",
+      "doc-0234-c009",
+      "doc-0234-c010",
+      "doc-0234-c011",
+      "doc-0234-c012",
+      "doc-0234-c013",
+      "doc-0234-c014",
+      "doc-0234-c015",
+      "doc-0234-c016",
+      "doc-0234-c017",
+      "doc-0234-c018",
+      "doc-0234-c019",
+      "doc-0234-c020",
+      "doc-0234-c021",
+      "doc-0234-c022",
+      "doc-0234-c023",
+      "doc-0234-c024",
+      "doc-0234-c025",
+      "doc-0234-c026",
+      "doc-0234-c027"
+    ]
+  },
+  {
+    "query": "I need details on reference QUA-2323, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0323",
+    "relevant_chunk_ids": [
+      "doc-0323-c001"
+    ]
+  },
+  {
+    "query": "Within Legal & Compliance, granting system access to contractors for Relay Notifications -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0415",
+    "relevant_chunk_ids": [
+      "doc-0415-c000",
+      "doc-0415-c001",
+      "doc-0415-c002",
+      "doc-0415-c003",
+      "doc-0415-c004",
+      "doc-0415-c005",
+      "doc-0415-c006",
+      "doc-0415-c007",
+      "doc-0415-c008",
+      "doc-0415-c009",
+      "doc-0415-c010",
+      "doc-0415-c011",
+      "doc-0415-c012",
+      "doc-0415-c013",
+      "doc-0415-c014",
+      "doc-0415-c015",
+      "doc-0415-c016",
+      "doc-0415-c017",
+      "doc-0415-c018",
+      "doc-0415-c019",
+      "doc-0415-c020"
+    ]
+  },
+  {
+    "query": "Within Finance, bringing a new supplier on board for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0332",
+    "relevant_chunk_ids": [
+      "doc-0332-c000",
+      "doc-0332-c001",
+      "doc-0332-c002",
+      "doc-0332-c003",
+      "doc-0332-c004",
+      "doc-0332-c005",
+      "doc-0332-c006",
+      "doc-0332-c007",
+      "doc-0332-c008",
+      "doc-0332-c009",
+      "doc-0332-c010",
+      "doc-0332-c011",
+      "doc-0332-c012",
+      "doc-0332-c013",
+      "doc-0332-c014",
+      "doc-0332-c015",
+      "doc-0332-c016",
+      "doc-0332-c017",
+      "doc-0332-c018",
+      "doc-0332-c019",
+      "doc-0332-c020",
+      "doc-0332-c021",
+      "doc-0332-c022",
+      "doc-0332-c023"
+    ]
+  },
+  {
+    "query": "Pull up the document for case RUN-2362.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0362",
+    "relevant_chunk_ids": [
+      "doc-0362-c000"
+    ]
+  },
+  {
+    "query": "Is there guidance on sign-off needed to refund a customer that Engineering put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0398",
+    "relevant_chunk_ids": [
+      "doc-0398-c000",
+      "doc-0398-c001",
+      "doc-0398-c002",
+      "doc-0398-c003",
+      "doc-0398-c004",
+      "doc-0398-c005",
+      "doc-0398-c006",
+      "doc-0398-c007",
+      "doc-0398-c008",
+      "doc-0398-c009",
+      "doc-0398-c010",
+      "doc-0398-c011",
+      "doc-0398-c012",
+      "doc-0398-c013",
+      "doc-0398-c014",
+      "doc-0398-c015",
+      "doc-0398-c016",
+      "doc-0398-c017",
+      "doc-0398-c018",
+      "doc-0398-c019",
+      "doc-0398-c020",
+      "doc-0398-c021",
+      "doc-0398-c022",
+      "doc-0398-c023"
+    ]
+  },
+  {
+    "query": "When was RUN-2095 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0095",
+    "relevant_chunk_ids": [
+      "doc-0095-c001"
+    ]
+  },
+  {
+    "query": "When was VEN-2495 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0495",
+    "relevant_chunk_ids": [
+      "doc-0495-c001"
+    ]
+  },
+  {
+    "query": "For teams in EMEA, how do we handle getting paid back for business expenses?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0260",
+    "relevant_chunk_ids": [
+      "doc-0260-c000",
+      "doc-0260-c001",
+      "doc-0260-c002",
+      "doc-0260-c003",
+      "doc-0260-c004",
+      "doc-0260-c005",
+      "doc-0260-c006",
+      "doc-0260-c007",
+      "doc-0260-c008",
+      "doc-0260-c009",
+      "doc-0260-c010",
+      "doc-0260-c011",
+      "doc-0260-c012",
+      "doc-0260-c013",
+      "doc-0260-c014",
+      "doc-0260-c015",
+      "doc-0260-c016",
+      "doc-0260-c017"
+    ]
+  },
+  {
+    "query": "Who owns case reference VEN-2345?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0345",
+    "relevant_chunk_ids": [
+      "doc-0345-c000"
+    ]
+  },
+  {
+    "query": "Which document was Marcus Andrade last reviewing?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0221",
+    "relevant_chunk_ids": [
+      "doc-0221-c000"
+    ]
+  },
+  {
+    "query": "What's Security's latest thinking on MAU trend, especially for Forge API Gateway?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0335",
+    "relevant_chunk_ids": [
+      "doc-0335-c000",
+      "doc-0335-c001",
+      "doc-0335-c002",
+      "doc-0335-c003",
+      "doc-0335-c004",
+      "doc-0335-c005",
+      "doc-0335-c006",
+      "doc-0335-c007",
+      "doc-0335-c008",
+      "doc-0335-c009",
+      "doc-0335-c010",
+      "doc-0335-c011",
+      "doc-0335-c012",
+      "doc-0335-c013",
+      "doc-0335-c014",
+      "doc-0335-c015",
+      "doc-0335-c016",
+      "doc-0335-c017",
+      "doc-0335-c018",
+      "doc-0335-c019",
+      "doc-0335-c020"
+    ]
+  },
+  {
+    "query": "Who owns case reference RUN-2433?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0433",
+    "relevant_chunk_ids": [
+      "doc-0433-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case VEN-2278?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0278",
+    "relevant_chunk_ids": [
+      "doc-0278-c001"
+    ]
+  },
+  {
+    "query": "Who owns case reference PRO-2080?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0080",
+    "relevant_chunk_ids": [
+      "doc-0080-c000"
+    ]
+  },
+  {
+    "query": "I need details on reference PRO-2172, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0172",
+    "relevant_chunk_ids": [
+      "doc-0172-c000"
+    ]
+  },
+  {
+    "query": "What's Operations's latest thinking on time off for new parents, especially for Nimbus Data Platform?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0441",
+    "relevant_chunk_ids": [
+      "doc-0441-c000",
+      "doc-0441-c001",
+      "doc-0441-c002",
+      "doc-0441-c003",
+      "doc-0441-c004",
+      "doc-0441-c005",
+      "doc-0441-c006",
+      "doc-0441-c007",
+      "doc-0441-c008",
+      "doc-0441-c009",
+      "doc-0441-c010",
+      "doc-0441-c011",
+      "doc-0441-c012",
+      "doc-0441-c013",
+      "doc-0441-c014"
+    ]
+  },
+  {
+    "query": "How does our core platform deal with slowest 5% of API response times today?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0413",
+    "relevant_chunk_ids": [
+      "doc-0413-c000",
+      "doc-0413-c001",
+      "doc-0413-c002",
+      "doc-0413-c003",
+      "doc-0413-c004",
+      "doc-0413-c005",
+      "doc-0413-c006",
+      "doc-0413-c007",
+      "doc-0413-c008",
+      "doc-0413-c009",
+      "doc-0413-c010",
+      "doc-0413-c011",
+      "doc-0413-c012",
+      "doc-0413-c013",
+      "doc-0413-c014",
+      "doc-0413-c015"
+    ]
+  },
+  {
+    "query": "For teams in LATAM, how do we handle how often performance reviews happen?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0156",
+    "relevant_chunk_ids": [
+      "doc-0156-c000",
+      "doc-0156-c001",
+      "doc-0156-c002",
+      "doc-0156-c003",
+      "doc-0156-c004",
+      "doc-0156-c005",
+      "doc-0156-c006",
+      "doc-0156-c007",
+      "doc-0156-c008",
+      "doc-0156-c009",
+      "doc-0156-c010",
+      "doc-0156-c011",
+      "doc-0156-c012",
+      "doc-0156-c013",
+      "doc-0156-c014",
+      "doc-0156-c015",
+      "doc-0156-c016",
+      "doc-0156-c017",
+      "doc-0156-c018",
+      "doc-0156-c019",
+      "doc-0156-c020",
+      "doc-0156-c021",
+      "doc-0156-c022",
+      "doc-0156-c023",
+      "doc-0156-c024",
+      "doc-0156-c025",
+      "doc-0156-c026",
+      "doc-0156-c027",
+      "doc-0156-c028",
+      "doc-0156-c029",
+      "doc-0156-c030"
+    ]
+  },
+  {
+    "query": "Who owns case reference POL-2363?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0363",
+    "relevant_chunk_ids": [
+      "doc-0363-c000"
+    ]
+  },
+  {
+    "query": "I need details on reference MEE-2125, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0125",
+    "relevant_chunk_ids": [
+      "doc-0125-c000"
+    ]
+  },
+  {
+    "query": "Who owns case reference QUA-2502?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0502",
+    "relevant_chunk_ids": [
+      "doc-0502-c000"
+    ]
+  },
+  {
+    "query": "What's the status of case PRO-2466?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0466",
+    "relevant_chunk_ids": [
+      "doc-0466-c001"
+    ]
+  },
+  {
+    "query": "Pull up the document for case VEN-2360.",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0360",
+    "relevant_chunk_ids": [
+      "doc-0360-c000"
+    ]
+  },
+  {
+    "query": "Within Finance, the pile of unresolved support tickets for our core platform -- what's the current process?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0216",
+    "relevant_chunk_ids": [
+      "doc-0216-c000",
+      "doc-0216-c001",
+      "doc-0216-c002",
+      "doc-0216-c003",
+      "doc-0216-c004",
+      "doc-0216-c005",
+      "doc-0216-c006",
+      "doc-0216-c007",
+      "doc-0216-c008",
+      "doc-0216-c009",
+      "doc-0216-c010",
+      "doc-0216-c011",
+      "doc-0216-c012",
+      "doc-0216-c013",
+      "doc-0216-c014",
+      "doc-0216-c015",
+      "doc-0216-c016",
+      "doc-0216-c017",
+      "doc-0216-c018",
+      "doc-0216-c019"
+    ]
+  },
+  {
+    "query": "Is there guidance on how vacation days build up that Legal & Compliance put together?",
+    "query_type": "conceptual",
+    "relevant_doc_id": "doc-0140",
+    "relevant_chunk_ids": [
+      "doc-0140-c000",
+      "doc-0140-c001",
+      "doc-0140-c002",
+      "doc-0140-c003",
+      "doc-0140-c004",
+      "doc-0140-c005",
+      "doc-0140-c006",
+      "doc-0140-c007",
+      "doc-0140-c008",
+      "doc-0140-c009",
+      "doc-0140-c010",
+      "doc-0140-c011",
+      "doc-0140-c012",
+      "doc-0140-c013",
+      "doc-0140-c014",
+      "doc-0140-c015",
+      "doc-0140-c016",
+      "doc-0140-c017",
+      "doc-0140-c018"
+    ]
+  },
+  {
+    "query": "When was INC-2110 last reviewed?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0110",
+    "relevant_chunk_ids": [
+      "doc-0110-c001"
+    ]
+  },
+  {
+    "query": "I need details on reference MEE-2146, who should I contact?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0146",
+    "relevant_chunk_ids": [
+      "doc-0146-c001"
+    ]
+  },
+  {
+    "query": "What's the status of case ONB-2400?",
+    "query_type": "lookup",
+    "relevant_doc_id": "doc-0400",
+    "relevant_chunk_ids": [
+      "doc-0400-c000"
+    ]
+  }
+]

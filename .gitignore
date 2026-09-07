@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+
+# generated artifacts (regenerate with scripts/run_pipeline.py)
+data/*.jsonl
+data/*.db
+data/corpus_stats.json
+data/anchor_chunks.json
+results/*.pkl

@@ -1,0 +1,1361 @@
+[
+  {
+    "question": "Who are the top 5 customers by spend in LATAM?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 5",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 10 products by revenue in Apparel?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "Apparel"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which products made the most revenue in 2024?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of pending orders in 2023?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "pending",
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Office Supplies category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Office Supplies"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the average order value in North America?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders were placed in APAC?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Can you recommend a good marketing slogan?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2024.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Draft an email apologizing for a late shipment.",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "Show revenue by region for 2024.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who are the top 10 customers by spend in APAC?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2025?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Electronics in 2023?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2023",
+      "Electronics"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders came from APAC in 2024?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "APAC",
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of pending orders in 2024?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "pending",
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Average order value for Consumer customers?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.order_id) t JOIN customers c ON c.customer_id = t.customer_id WHERE c.segment = ?",
+    "expected_params": [
+      "Consumer"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders were placed in EMEA?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the average order value in North America?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many Mid-Market customers do we have in APAC?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ? AND region = ?",
+    "expected_params": [
+      "Mid-Market",
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 5 best-selling products in North America.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 5",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Revenue per category, please.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2023?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Write a haiku about our best-selling product.",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "What's the sales by category breakdown in 2025?",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Grocery in 2023?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2023",
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Office Supplies category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Office Supplies"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2024?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show the top 10 highest spend customers.",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "What was total revenue in North America?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many Enterprise customers do we have in LATAM?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ? AND region = ?",
+    "expected_params": [
+      "Enterprise",
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Electronics category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Electronics"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 3 products by revenue in Office Supplies?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 3",
+    "expected_params": [
+      "Office Supplies"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Office Supplies in 2025?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2025",
+      "Office Supplies"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 10 best-selling products in LATAM.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What was total revenue in EMEA?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Give me revenue per region in 2026.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many Consumer customers do we have in EMEA?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ? AND region = ?",
+    "expected_params": [
+      "Consumer",
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the meaning of life?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "What is the mean order value in 2023?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders came from North America in 2023?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "North America",
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by region for 2025.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Total revenue, LATAM, 2024?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "LATAM",
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Summarize our HR policy on parental leave.",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders came from North America in 2023?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "North America",
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the weather like in the APAC region?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "What's the sales by category breakdown in 2025?",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 10 best-selling products in EMEA.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders were placed in North America?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the capital of France?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Electronics"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Electronics"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by region for 2026.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of pending orders in 2024?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "pending",
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who are the top 3 customers by spend in EMEA?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 3",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders were placed in North America?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by category breakdown in 2024?",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders were placed in LATAM?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What was total revenue in LATAM?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who are the top 5 customers by spend in EMEA?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 5",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by region for 2026.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Home & Kitchen?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2025?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Electronics?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Electronics"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by category breakdown in 2023?",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Revenue per category, please.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders came from LATAM in 2024?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "LATAM",
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2026.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of cancelled orders in 2023?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "cancelled",
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 10 products by revenue in Apparel?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "Apparel"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which products made the most revenue in 2026?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many customers are in the SMB segment?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ?",
+    "expected_params": [
+      "SMB"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2026?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in LATAM?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 3 products by revenue in Apparel?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 3",
+    "expected_params": [
+      "Apparel"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Total revenue, LATAM, 2026?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "LATAM",
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Apparel?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Apparel"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Average order value for Enterprise customers?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.order_id) t JOIN customers c ON c.customer_id = t.customer_id WHERE c.segment = ?",
+    "expected_params": [
+      "Enterprise"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who is our CEO?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "Number of customers in LATAM?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Home & Kitchen category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Total revenue, North America, 2025?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "North America",
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's our stock price today?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "Number of cancelled orders in 2026?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "cancelled",
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Sporting Goods in 2024?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2024",
+      "Sporting Goods"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 5 products by revenue in Home & Kitchen?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 5",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show the top 10 highest spend customers.",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "How do I reset my VPN password?",
+    "expected_intent": null,
+    "expected_sql": null,
+    "expected_params": [],
+    "in_scope": false
+  },
+  {
+    "question": "How many Enterprise customers do we have in North America?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ? AND region = ?",
+    "expected_params": [
+      "Enterprise",
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2025?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2025"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which products made the most revenue in 2023?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 3 best-selling products in EMEA.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 3",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many customers are in the SMB segment?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ?",
+    "expected_params": [
+      "SMB"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2024.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2024"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Home & Kitchen in 2023?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2023",
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show the top 5 highest spend customers.",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 5",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many products are in Grocery?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Which customers spent the most in 2023?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY c.customer_id ORDER BY spend DESC LIMIT 10",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by region for 2023.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Give me revenue per region in 2026.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in APAC?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How much revenue did we make from Sporting Goods in 2026?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? AND p.category = ?",
+    "expected_params": [
+      "2026",
+      "Sporting Goods"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many Consumer customers do we have in LATAM?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ? AND region = ?",
+    "expected_params": [
+      "Consumer",
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Revenue per category, please.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 5 best-selling products in North America.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 5",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Apparel category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Apparel"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who are the top 3 customers by spend in LATAM?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 3",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Revenue per category, please.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "What's our total sales figure for 2026?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 10 products by revenue in Home & Kitchen?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "Home & Kitchen"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many customers are in the Consumer segment?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ?",
+    "expected_params": [
+      "Consumer"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many customers are in the Mid-Market segment?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE segment = ?",
+    "expected_params": [
+      "Mid-Market"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What was total revenue in EMEA?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of products in the Grocery category?",
+    "expected_intent": "product_count",
+    "expected_sql": "SELECT COUNT(*) AS product_count FROM products WHERE category = ?",
+    "expected_params": [
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Give me revenue per region in 2023.",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's our total sales figure for 2026?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "How many orders came from APAC in 2026?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.region = ? AND o.status = 'completed' AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "APAC",
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of refunded orders in 2023?",
+    "expected_intent": "order_count",
+    "expected_sql": "SELECT COUNT(*) AS order_count FROM orders o WHERE o.status = ? AND strftime('%Y', o.order_date) = ?",
+    "expected_params": [
+      "refunded",
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What was total revenue in APAC?",
+    "expected_intent": "total_revenue",
+    "expected_sql": "SELECT ROUND(SUM(oi.quantity * oi.unit_price), 2) AS total_revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id  WHERE o.region = ? AND o.status = 'completed'",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show me the top 10 best-selling products in LATAM.",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.region = ? AND o.status = 'completed' GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What are the top 10 products by revenue in Grocery?",
+    "expected_intent": "top_products",
+    "expected_sql": "SELECT p.name, p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND p.category = ? GROUP BY p.product_id ORDER BY revenue DESC LIMIT 10",
+    "expected_params": [
+      "Grocery"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the sales by region breakdown?",
+    "expected_intent": "revenue_by_region",
+    "expected_sql": "SELECT o.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.region ORDER BY revenue DESC",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Show the top 3 highest spend customers.",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 3",
+    "expected_params": [],
+    "in_scope": true
+  },
+  {
+    "question": "Average order value for Mid-Market customers?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' GROUP BY o.order_id) t JOIN customers c ON c.customer_id = t.customer_id WHERE c.segment = ?",
+    "expected_params": [
+      "Mid-Market"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Show revenue by category for 2023.",
+    "expected_intent": "revenue_by_category",
+    "expected_sql": "SELECT p.category, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS revenue FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN products p ON p.product_id = oi.product_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY p.category ORDER BY revenue DESC",
+    "expected_params": [
+      "2023"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Who are the top 5 customers by spend in North America?",
+    "expected_intent": "top_customers",
+    "expected_sql": "SELECT c.name, c.segment, c.region, ROUND(SUM(oi.quantity * oi.unit_price), 2) AS spend FROM order_items oi JOIN orders o ON o.order_id = oi.order_id JOIN customers c ON c.customer_id = o.customer_id WHERE o.region = ? AND o.status = 'completed' GROUP BY c.customer_id ORDER BY spend DESC LIMIT 5",
+    "expected_params": [
+      "North America"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in EMEA?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the average order value in LATAM?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "LATAM"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What is the mean order value in 2026?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.status = 'completed' AND strftime('%Y', o.order_date) = ? GROUP BY o.order_id) t",
+    "expected_params": [
+      "2026"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "Number of customers in EMEA?",
+    "expected_intent": "customer_count",
+    "expected_sql": "SELECT COUNT(*) AS customer_count FROM customers WHERE region = ?",
+    "expected_params": [
+      "EMEA"
+    ],
+    "in_scope": true
+  },
+  {
+    "question": "What's the average order value in APAC?",
+    "expected_intent": "avg_order_value",
+    "expected_sql": "SELECT ROUND(AVG(t.order_total), 2) AS avg_order_value FROM (SELECT o.order_id, o.region, o.customer_id, SUM(oi.quantity * oi.unit_price) AS order_total FROM order_items oi JOIN orders o ON o.order_id = oi.order_id WHERE o.region = ? AND o.status = 'completed' GROUP BY o.order_id) t",
+    "expected_params": [
+      "APAC"
+    ],
+    "in_scope": true
+  }
+]

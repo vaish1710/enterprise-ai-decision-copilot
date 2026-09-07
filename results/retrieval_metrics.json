@@ -1,0 +1,29 @@
+{
+  "n_test_queries": 72,
+  "n_chunks_indexed": 11529,
+  "precision_at_5": {
+    "bm25_only": 0.6528,
+    "dense_only": 0.1944,
+    "hybrid_rrf": 0.2917,
+    "hybrid_reranked": 0.6806
+  },
+  "precision_at_5_by_query_type": {
+    "lookup": {
+      "bm25_only": 1.0,
+      "dense_only": 0.1053,
+      "hybrid_rrf": 0.3421,
+      "hybrid_reranked": 0.9737
+    },
+    "conceptual": {
+      "bm25_only": 0.2647,
+      "dense_only": 0.2941,
+      "hybrid_rrf": 0.2353,
+      "hybrid_reranked": 0.3529
+    }
+  },
+  "improvement_hybrid_reranked_vs_vector_only_pct": 250.0,
+  "avg_latency_sec": {
+    "hybrid_rrf": 0.1494,
+    "hybrid_reranked": 0.2
+  }
+}
