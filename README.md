@@ -1,5 +1,7 @@
 # Enterprise AI Decision Intelligence Copilot
 
+[Portfolio](https://vaishnavi-paruchuri.vercel.app/) · [GitHub](https://github.com/vaish1710) · [LinkedIn](https://linkedin.com/in/vaishparuchuri)
+
 A RAG-based enterprise knowledge assistant: hybrid (BM25 + semantic) document retrieval with a
 trained reranker, plus a validated natural-language-to-SQL layer over a business database, served
 behind a FastAPI app.
